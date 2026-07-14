@@ -1,480 +1,376 @@
 [
   {
     "id": "find-skills",
-    "type": "skill",
     "name": "Find Skills",
-    "description": "在技能生态系统中搜索并安装技能",
+    "description": "鎼滅储骞跺畨瑁呮妧鑳界敓鎬佷腑鐨勬妧鑳?(2.5M瀹夎)",
     "repo": "vercel-labs/skills",
     "category": "agent-workflows",
     "tags": [
-      "搜索",
-      "安装"
+      "鎼滅储",
+      "瀹夎"
     ],
     "stars": 26000,
     "installs": 2500000
   },
   {
-    "id": "agent-browser",
-    "type": "skill",
-    "name": "Agent Browser",
-    "description": "完整浏览器自动化：导航/点击/填表/截图",
-    "repo": "vercel-labs/agent-browser",
-    "category": "agent-workflows",
-    "tags": [
-      "浏览器",
-      "自动化"
-    ],
-    "stars": 5000,
-    "installs": 541000
-  },
-  {
-    "id": "skill-creator",
-    "type": "skill",
-    "name": "Skill Creator",
-    "description": "在 Agent 内部创建、测试和发布新技能",
-    "repo": "anthropics/skills",
-    "category": "agent-workflows",
-    "tags": [
-      "创建",
-      "发布"
-    ],
-    "stars": 8000,
-    "installs": 200000
-  },
-  {
-    "id": "proactive-agent",
-    "type": "skill",
-    "name": "Proactive Agent 3.1.0",
-    "description": "WAL 协议+自愈+反向提示，让 Agent 主动预判需求",
-    "repo": "blackmcvn/proactive-agent-3-1-0",
-    "category": "agent-workflows",
-    "tags": [
-      "主动",
-      "自愈"
-    ],
-    "stars": 113,
-    "installs": 5000
-  },
-  {
-    "id": "agent-team-builder",
-    "type": "skill",
-    "name": "Agent Team Builder",
-    "description": "多 Agent 团队搭建向导",
-    "repo": "superjavason/agent-team-builder",
-    "category": "agent-workflows",
-    "tags": [
-      "团队",
-      "协作"
-    ],
-    "stars": 8
-  },
-  {
-    "id": "agent-skills-addy",
-    "type": "skill",
-    "name": "Agent Skills (Addy Osmani)",
-    "description": "24 个生产级工程技能：/spec /plan /build /test /review /ship",
-    "repo": "addyosmani/agent-skills",
-    "category": "engineering",
-    "tags": [
-      "工程",
-      "全流程"
-    ],
-    "stars": 77851
-  },
-  {
-    "id": "tdd",
-    "type": "skill",
-    "name": "TDD",
-    "description": "测试驱动开发，红绿重构循环",
-    "repo": "mattpocock/skills",
-    "category": "engineering",
-    "tags": [
-      "TDD",
-      "测试"
-    ],
-    "stars": 10000,
-    "installs": 432000
-  },
-  {
-    "id": "grill-me",
-    "type": "skill",
-    "name": "Grill Me",
-    "description": "压力测试方案或设计，一次一个决策",
-    "repo": "mattpocock/skills",
-    "category": "engineering",
-    "tags": [
-      "审查",
-      "压力测试"
-    ],
-    "stars": 10000,
-    "installs": 545000
-  },
-  {
-    "id": "code-review",
-    "type": "skill",
-    "name": "Code Review",
-    "description": "系统化代码审查工作流",
-    "repo": "anthropics/knowledge-work-plugins",
-    "category": "engineering",
-    "tags": [
-      "审查",
-      "质量"
-    ],
-    "stars": 500,
-    "installs": 6800
-  },
-  {
-    "id": "architecture",
-    "type": "skill",
-    "name": "Architecture",
-    "description": "系统架构设计指导",
-    "repo": "anthropics/knowledge-work-plugins",
-    "category": "engineering",
-    "tags": [
-      "架构",
-      "设计"
-    ],
-    "stars": 500,
-    "installs": 4400
-  },
-  {
-    "id": "testing-strategy",
-    "type": "skill",
-    "name": "Testing Strategy",
-    "description": "测试策略规划",
-    "repo": "anthropics/knowledge-work-plugins",
-    "category": "engineering",
-    "tags": [
-      "测试",
-      "策略"
-    ],
-    "stars": 500,
-    "installs": 4300
-  },
-  {
-    "id": "prd-writer",
-    "type": "skill",
-    "name": "PRD Writer",
-    "description": "产品想法→PRD→Word文档→原型方案→任务拆分",
-    "repo": "guanghua1/prd-writer",
-    "category": "product",
-    "tags": [
-      "PRD",
-      "文档"
-    ],
-    "stars": 3
-  },
-  {
-    "id": "prd-to-prototype",
-    "type": "skill",
-    "name": "PRD to Prototype",
-    "description": "PRD→高保真HTML/Tailwind交互原型",
-    "repo": "zengxming45/prd-to-prototype",
-    "category": "product",
-    "tags": [
-      "原型",
-      "HTML"
-    ],
-    "stars": 5
-  },
-  {
-    "id": "product-expert",
-    "type": "skill",
-    "name": "Product Expert",
-    "description": "15年SaaS产品合伙人，苏格拉底式思维伙伴",
-    "repo": "felixgeelhaar/skills",
-    "category": "product",
-    "tags": [
-      "产品",
-      "战略"
-    ],
-    "stars": 5
-  },
-  {
-    "id": "product-brainstorming",
-    "type": "skill",
-    "name": "Product Brainstorming",
-    "description": "结构化产品头脑风暴",
-    "repo": "anthropics/knowledge-work-plugins",
-    "category": "product",
-    "tags": [
-      "创意",
-      "头脑风暴"
-    ],
-    "stars": 500,
-    "installs": 3600
-  },
-  {
-    "id": "write-spec",
-    "type": "skill",
-    "name": "Write Spec",
-    "description": "编写产品规格文档",
-    "repo": "anthropics/knowledge-work-plugins",
-    "category": "product",
-    "tags": [
-      "规格",
-      "文档"
-    ],
-    "stars": 500,
-    "installs": 2400
-  },
-  {
-    "id": "user-research",
-    "type": "skill",
-    "name": "User Research",
-    "description": "用户研究方法和分析",
-    "repo": "anthropics/knowledge-work-plugins",
-    "category": "product",
-    "tags": [
-      "用户研究",
-      "VOC"
-    ],
-    "stars": 500,
-    "installs": 2600
-  },
-  {
-    "id": "mckinsey-research",
-    "type": "skill",
-    "name": "McKinsey Research",
-    "description": "12步战略分析：TAM/波特五力/财务模型/市场进入",
-    "repo": "Abdullah4AI/mckinsey-research",
-    "category": "strategy",
-    "tags": [
-      "战略",
-      "分析"
-    ],
-    "stars": 22
-  },
-  {
-    "id": "strategy-consultant",
-    "type": "skill",
-    "name": "Strategy Consultant",
-    "description": "MECE/IssueTree/假设检验/帕累托/SoWhat五框架",
-    "repo": "ConrayGambit/Strategy-Consultant-5-Consulting-Frameworks",
-    "category": "strategy",
-    "tags": [
-      "框架",
-      "咨询"
-    ],
-    "stars": 11
-  },
-  {
-    "id": "competitive-intelligence",
-    "type": "skill",
-    "name": "Competitive Intelligence",
-    "description": "竞品情报收集和分析",
-    "repo": "anthropics/knowledge-work-plugins",
-    "category": "strategy",
-    "tags": [
-      "竞品",
-      "情报"
-    ],
-    "stars": 500,
-    "installs": 3300
-  },
-  {
-    "id": "competitive-brief",
-    "type": "skill",
-    "name": "Competitive Brief",
-    "description": "竞品分析简报",
-    "repo": "anthropics/knowledge-work-plugins",
-    "category": "strategy",
-    "tags": [
-      "竞品",
-      "简报"
-    ],
-    "stars": 500,
-    "installs": 2100
-  },
-  {
-    "id": "comp-analysis",
-    "type": "skill",
-    "name": "Comp Analysis",
-    "description": "薪酬和竞品对比分析",
-    "repo": "anthropics/knowledge-work-plugins",
-    "category": "strategy",
-    "tags": [
-      "对比",
-      "分析"
-    ],
-    "stars": 500,
-    "installs": 1900
-  },
-  {
-    "id": "financial-statements",
-    "type": "skill",
-    "name": "Financial Statements",
-    "description": "财务报表分析和解读",
-    "repo": "anthropics/knowledge-work-plugins",
-    "category": "strategy",
-    "tags": [
-      "财务",
-      "报表"
-    ],
-    "stars": 500,
-    "installs": 3000
-  },
-  {
     "id": "frontend-design",
-    "type": "skill",
     "name": "Frontend Design",
-    "description": "高质量前端设计生成",
+    "description": "楂樿川閲忓墠绔璁＄敓鎴?(661K瀹夎)",
     "repo": "anthropics/skills",
     "category": "creative",
     "tags": [
-      "前端",
-      "设计"
+      "鍓嶇",
+      "璁捐"
     ],
     "stars": 8000,
     "installs": 661000
   },
   {
+    "id": "vercel-react-best-practices",
+    "name": "Vercel React Best Practices",
+    "description": "Vercel React 鏈€浣冲疄璺?(549K瀹夎)",
+    "repo": "vercel-labs/agent-skills",
+    "category": "engineering",
+    "tags": [
+      "React",
+      "Vercel"
+    ],
+    "stars": 5000,
+    "installs": 549000
+  },
+  {
+    "id": "grill-me",
+    "name": "Grill Me",
+    "description": "鍘嬪姏娴嬭瘯鏂规鎴栬璁?(545K瀹夎)",
+    "repo": "mattpocock/skills",
+    "category": "engineering",
+    "tags": [
+      "瀹℃煡",
+      "娴嬭瘯"
+    ],
+    "stars": 10000,
+    "installs": 545000
+  },
+  {
+    "id": "agent-browser",
+    "name": "Agent Browser",
+    "description": "瀹屾暣娴忚鍣ㄨ嚜鍔ㄥ寲 (541K瀹夎)",
+    "repo": "vercel-labs/agent-browser",
+    "category": "agent-workflows",
+    "tags": [
+      "娴忚鍣?,
+      "鑷姩鍖?
+    ],
+    "stars": 5000,
+    "installs": 541000
+  },
+  {
     "id": "web-design-guidelines",
-    "type": "skill",
     "name": "Web Design Guidelines",
-    "description": "Web 设计最佳实践指南",
+    "description": "Web 璁捐鏈€浣冲疄璺?(462K瀹夎)",
     "repo": "vercel-labs/agent-skills",
     "category": "creative",
     "tags": [
-      "设计",
+      "璁捐",
       "Web"
     ],
     "stars": 5000,
     "installs": 462000
   },
   {
-    "id": "build-dashboard",
-    "type": "skill",
-    "name": "Build Dashboard",
-    "description": "构建数据仪表盘",
-    "repo": "anthropics/knowledge-work-plugins",
+    "id": "grill-with-docs",
+    "name": "Grill With Docs",
+    "description": "甯︽枃妗ｇ殑鍘嬪姏娴嬭瘯 (459K瀹夎)",
+    "repo": "mattpocock/skills",
+    "category": "engineering",
+    "tags": [
+      "瀹℃煡",
+      "鏂囨。"
+    ],
+    "stars": 10000,
+    "installs": 459000
+  },
+  {
+    "id": "improve-codebase-architecture",
+    "name": "Improve Codebase Architecture",
+    "description": "鏀硅繘浠ｇ爜搴撴灦鏋?(450K瀹夎)",
+    "repo": "mattpocock/skills",
+    "category": "engineering",
+    "tags": [
+      "鏋舵瀯",
+      "閲嶆瀯"
+    ],
+    "stars": 10000,
+    "installs": 450000
+  },
+  {
+    "id": "tdd",
+    "name": "TDD",
+    "description": "娴嬭瘯椹卞姩寮€鍙?(432K瀹夎)",
+    "repo": "mattpocock/skills",
+    "category": "engineering",
+    "tags": [
+      "TDD",
+      "娴嬭瘯"
+    ],
+    "stars": 10000,
+    "installs": 432000
+  },
+  {
+    "id": "remotion-best-practices",
+    "name": "Remotion Best Practices",
+    "description": "Remotion 瑙嗛鏈€浣冲疄璺?(424K瀹夎)",
+    "repo": "remotion-dev/skills",
     "category": "creative",
     "tags": [
-      "仪表盘",
-      "数据"
+      "瑙嗛",
+      "Remotion"
     ],
-    "stars": 500,
-    "installs": 5800
+    "stars": 5000,
+    "installs": 424000
   },
   {
-    "id": "data-visualization",
-    "type": "skill",
-    "name": "Data Visualization",
-    "description": "数据可视化最佳实践",
-    "repo": "anthropics/knowledge-work-plugins",
+    "id": "setup-matt-pocock-skills",
+    "name": "Setup Matt Pocock Skills",
+    "description": "涓€閿畨瑁?Matt Pocock 鍏ㄩ儴鎶€鑳?(387K瀹夎)",
+    "repo": "mattpocock/skills",
+    "category": "agent-workflows",
+    "tags": [
+      "瀹夎",
+      "鎵归噺"
+    ],
+    "stars": 10000,
+    "installs": 387000
+  },
+  {
+    "id": "to-prd",
+    "name": "To PRD",
+    "description": "灏嗛渶姹傝浆鎹负 PRD 鏂囨。 (356K瀹夎)",
+    "repo": "mattpocock/skills",
+    "category": "product",
+    "tags": [
+      "PRD",
+      "杞崲"
+    ],
+    "stars": 10000,
+    "installs": 356000
+  },
+  {
+    "id": "triage",
+    "name": "Triage",
+    "description": "闂鍒嗙被鍜屼紭鍏堢骇鎺掑簭 (354K瀹夎)",
+    "repo": "mattpocock/skills",
+    "category": "engineering",
+    "tags": [
+      "鍒嗙被",
+      "浼樺厛绾?
+    ],
+    "stars": 10000,
+    "installs": 354000
+  },
+  {
+    "id": "handoff",
+    "name": "Handoff",
+    "description": "寮€鍙戜氦鎺ュ伐浣滄祦 (344K瀹夎)",
+    "repo": "mattpocock/skills",
+    "category": "agent-workflows",
+    "tags": [
+      "浜ゆ帴",
+      "鍗忎綔"
+    ],
+    "stars": 10000,
+    "installs": 344000
+  },
+  {
+    "id": "to-issues",
+    "name": "To Issues",
+    "description": "灏嗛渶姹傝浆鎹负 GitHub Issues (343K瀹夎)",
+    "repo": "mattpocock/skills",
+    "category": "engineering",
+    "tags": [
+      "Issues",
+      "GitHub"
+    ],
+    "stars": 10000,
+    "installs": 343000
+  },
+  {
+    "id": "prototype",
+    "name": "Prototype",
+    "description": "蹇€熷師鍨嬪紑鍙?(334K瀹夎)",
+    "repo": "mattpocock/skills",
     "category": "creative",
     "tags": [
-      "可视化",
-      "图表"
+      "鍘熷瀷",
+      "蹇€?
     ],
-    "stars": 500,
-    "installs": 9400
+    "stars": 10000,
+    "installs": 334000
   },
   {
-    "id": "create-viz",
-    "type": "skill",
-    "name": "Create Viz",
-    "description": "快速创建数据可视化图表",
-    "repo": "anthropics/knowledge-work-plugins",
-    "category": "creative",
+    "id": "diagnose",
+    "name": "Diagnose",
+    "description": "闂璇婃柇宸ヤ綔娴?(232K瀹夎)",
+    "repo": "mattpocock/skills",
+    "category": "engineering",
     "tags": [
-      "图表",
-      "快速"
+      "璇婃柇",
+      "鎺掗敊"
     ],
-    "stars": 500,
-    "installs": 3600
+    "stars": 10000,
+    "installs": 232000
   },
   {
-    "id": "launchfit-ai",
-    "type": "skill",
-    "name": "LaunchFit AI",
-    "description": "跨境产品上架准备度审查",
-    "repo": "jwynia/launchfit-ai",
-    "category": "ecommerce",
+    "id": "teach",
+    "name": "Teach",
+    "description": "鏁欏鍜岃В閲婃ā寮?(227K瀹夎)",
+    "repo": "mattpocock/skills",
+    "category": "documentation",
     "tags": [
-      "跨境",
-      "合规"
+      "鏁欏",
+      "瑙ｉ噴"
     ],
-    "stars": 5
+    "stars": 10000,
+    "installs": 227000
   },
   {
-    "id": "shopify-expert",
-    "type": "skill",
-    "name": "Shopify Expert",
-    "description": "Shopify 电商平台专家技能",
-    "repo": "jeffallan/claude-skills",
-    "category": "ecommerce",
+    "id": "write-a-skill",
+    "name": "Write a Skill",
+    "description": "缂栧啓 Agent 鎶€鑳芥寚鍗?(224K瀹夎)",
+    "repo": "mattpocock/skills",
+    "category": "agent-workflows",
     "tags": [
-      "Shopify",
-      "电商"
+      "缂栧啓",
+      "鎶€鑳?
     ],
-    "stars": 118,
-    "installs": 3800
+    "stars": 10000,
+    "installs": 224000
   },
   {
-    "id": "seo-audit",
-    "type": "skill",
-    "name": "SEO Audit",
-    "description": "SEO 审计和优化建议",
-    "repo": "anthropics/knowledge-work-plugins",
-    "category": "ecommerce",
+    "id": "zoom-out",
+    "name": "Zoom Out",
+    "description": "浠庡叏灞€瑙嗚瀹¤闂 (224K瀹夎)",
+    "repo": "mattpocock/skills",
+    "category": "strategy",
     "tags": [
-      "SEO",
-      "审计"
+      "鍏ㄥ眬",
+      "瑙嗚"
     ],
-    "stars": 500,
-    "installs": 2400
+    "stars": 10000,
+    "installs": 224000
   },
   {
-    "id": "content-creation",
-    "type": "skill",
-    "name": "Content Creation",
-    "description": "内容创作工作流",
-    "repo": "anthropics/knowledge-work-plugins",
-    "category": "ecommerce",
+    "id": "domain-modeling",
+    "name": "Domain Modeling",
+    "description": "棰嗗煙寤烘ā宸ヤ綔娴?(157K瀹夎)",
+    "repo": "mattpocock/skills",
+    "category": "strategy",
     "tags": [
-      "内容",
-      "创作"
+      "寤烘ā",
+      "棰嗗煙"
     ],
-    "stars": 500,
-    "installs": 3600
+    "stars": 10000,
+    "installs": 157000
   },
   {
-    "id": "feishu-bot-builder",
-    "type": "skill",
-    "name": "Feishu Bot Builder",
-    "description": "飞书机器人快速构建 Skill",
-    "repo": "carl-ai-lab/feishu-bot-builder",
-    "category": "feishu",
+    "id": "codebase-design",
+    "name": "Codebase Design",
+    "description": "浠ｇ爜搴撹璁?(152K瀹夎)",
+    "repo": "mattpocock/skills",
+    "category": "engineering",
     "tags": [
-      "飞书",
-      "机器人"
+      "璁捐",
+      "鏋舵瀯"
     ],
-    "stars": 23
+    "stars": 10000,
+    "installs": 152000
+  },
+  {
+    "id": "design-an-interface",
+    "name": "Design an Interface",
+    "description": "鎺ュ彛/API 璁捐 (135K瀹夎)",
+    "repo": "mattpocock/skills",
+    "category": "engineering",
+    "tags": [
+      "API",
+      "璁捐"
+    ],
+    "stars": 10000,
+    "installs": 135000
+  },
+  {
+    "id": "qa",
+    "name": "QA",
+    "description": "璐ㄩ噺淇濊瘉宸ヤ綔娴?(127K瀹夎)",
+    "repo": "mattpocock/skills",
+    "category": "engineering",
+    "tags": [
+      "QA",
+      "娴嬭瘯"
+    ],
+    "stars": 10000,
+    "installs": 127000
+  },
+  {
+    "id": "review",
+    "name": "Review",
+    "description": "浠ｇ爜瀹℃煡 (91K瀹夎)",
+    "repo": "mattpocock/skills",
+    "category": "engineering",
+    "tags": [
+      "瀹℃煡",
+      "浠ｇ爜"
+    ],
+    "stars": 10000,
+    "installs": 91000
+  },
+  {
+    "id": "research",
+    "name": "Research",
+    "description": "鐮旂┒宸ヤ綔娴?(74K瀹夎)",
+    "repo": "mattpocock/skills",
+    "category": "strategy",
+    "tags": [
+      "鐮旂┒",
+      "璋冪爺"
+    ],
+    "stars": 10000,
+    "installs": 74000
+  },
+  {
+    "id": "decision-mapping",
+    "name": "Decision Mapping",
+    "description": "鍐崇瓥鏄犲皠鍜屽彲瑙嗗寲 (43K瀹夎)",
+    "repo": "mattpocock/skills",
+    "category": "strategy",
+    "tags": [
+      "鍐崇瓥",
+      "鏄犲皠"
+    ],
+    "stars": 10000,
+    "installs": 43000
   },
   {
     "id": "lark-approval",
-    "type": "skill",
     "name": "Lark Approval",
-    "description": "飞书审批流程管理",
+    "description": "椋炰功瀹℃壒娴佺▼绠＄悊 (401K瀹夎)",
     "repo": "open.feishu.cn",
     "category": "feishu",
     "tags": [
-      "飞书",
-      "审批"
+      "椋炰功",
+      "瀹℃壒"
     ],
     "stars": 2000,
     "installs": 401000
   },
   {
     "id": "lark-okr",
-    "type": "skill",
     "name": "Lark OKR",
-    "description": "飞书 OKR 目标管理",
+    "description": "椋炰功 OKR 鐩爣绠＄悊 (381K瀹夎)",
     "repo": "open.feishu.cn",
     "category": "feishu",
     "tags": [
-      "飞书",
+      "椋炰功",
       "OKR"
     ],
     "stars": 2000,
@@ -482,224 +378,986 @@
   },
   {
     "id": "lark-markdown",
-    "type": "skill",
     "name": "Lark Markdown",
-    "description": "飞书 Markdown 文档处理",
+    "description": "椋炰功 Markdown 鏂囨。澶勭悊 (366K瀹夎)",
     "repo": "open.feishu.cn",
     "category": "feishu",
     "tags": [
-      "飞书",
-      "文档"
+      "椋炰功",
+      "鏂囨。"
     ],
     "stars": 2000,
     "installs": 366000
   },
   {
-    "id": "explore-data",
-    "type": "skill",
-    "name": "Explore Data",
-    "description": "数据探索和分析工作流",
-    "repo": "anthropics/knowledge-work-plugins",
+    "id": "lark-calendar",
+    "name": "Lark Calendar",
+    "description": "椋炰功鏃ュ巻绠＄悊",
+    "repo": "open.feishu.cn",
+    "category": "feishu",
+    "tags": [
+      "椋炰功",
+      "鏃ュ巻"
+    ],
+    "stars": 2000,
+    "installs": 300000
+  },
+  {
+    "id": "lark-doc",
+    "name": "Lark Doc",
+    "description": "椋炰功鏂囨。鎿嶄綔",
+    "repo": "open.feishu.cn",
+    "category": "feishu",
+    "tags": [
+      "椋炰功",
+      "鏂囨。"
+    ],
+    "stars": 2000,
+    "installs": 280000
+  },
+  {
+    "id": "lark-sheet",
+    "name": "Lark Sheet",
+    "description": "椋炰功鐢靛瓙琛ㄦ牸鎿嶄綔",
+    "repo": "open.feishu.cn",
+    "category": "feishu",
+    "tags": [
+      "椋炰功",
+      "琛ㄦ牸"
+    ],
+    "stars": 2000,
+    "installs": 260000
+  },
+  {
+    "id": "lark-base",
+    "name": "Lark Base",
+    "description": "椋炰功澶氱淮琛ㄦ牸鎿嶄綔",
+    "repo": "open.feishu.cn",
+    "category": "feishu",
+    "tags": [
+      "椋炰功",
+      "澶氱淮琛ㄦ牸"
+    ],
+    "stars": 2000,
+    "installs": 250000
+  },
+  {
+    "id": "lark-message",
+    "name": "Lark Message",
+    "description": "椋炰功娑堟伅鍙戦€佸拰绠＄悊",
+    "repo": "open.feishu.cn",
+    "category": "feishu",
+    "tags": [
+      "椋炰功",
+      "娑堟伅"
+    ],
+    "stars": 2000,
+    "installs": 240000
+  },
+  {
+    "id": "lark-im",
+    "name": "Lark IM",
+    "description": "椋炰功鍗虫椂閫氳闆嗘垚",
+    "repo": "open.feishu.cn",
+    "category": "feishu",
+    "tags": [
+      "椋炰功",
+      "IM"
+    ],
+    "stars": 2000,
+    "installs": 220000
+  },
+  {
+    "id": "lark-task",
+    "name": "Lark Task",
+    "description": "椋炰功浠诲姟绠＄悊",
+    "repo": "open.feishu.cn",
+    "category": "feishu",
+    "tags": [
+      "椋炰功",
+      "浠诲姟"
+    ],
+    "stars": 2000,
+    "installs": 200000
+  },
+  {
+    "id": "lark-wiki",
+    "name": "Lark Wiki",
+    "description": "椋炰功鐭ヨ瘑搴撶鐞?,
+    "repo": "open.feishu.cn",
+    "category": "feishu",
+    "tags": [
+      "椋炰功",
+      "鐭ヨ瘑搴?
+    ],
+    "stars": 2000,
+    "installs": 180000
+  },
+  {
+    "id": "lark-meeting",
+    "name": "Lark Meeting",
+    "description": "椋炰功浼氳绠＄悊",
+    "repo": "open.feishu.cn",
+    "category": "feishu",
+    "tags": [
+      "椋炰功",
+      "浼氳"
+    ],
+    "stars": 2000,
+    "installs": 160000
+  },
+  {
+    "id": "lark-bitable",
+    "name": "Lark Bitable",
+    "description": "椋炰功澶氱淮琛ㄦ牸楂樼骇鎿嶄綔",
+    "repo": "open.feishu.cn",
+    "category": "feishu",
+    "tags": [
+      "椋炰功",
+      "Bitable"
+    ],
+    "stars": 2000,
+    "installs": 150000
+  },
+  {
+    "id": "lark-apps",
+    "name": "Lark Apps (濡欐惌)",
+    "description": "椋炰功濡欐惌搴旂敤寮€鍙戜笌鎵樼",
+    "repo": "larksuite/cli",
+    "category": "feishu",
+    "tags": [
+      "椋炰功",
+      "濡欐惌",
+      "搴旂敤"
+    ],
+    "stars": 14000,
+    "installs": 100000
+  },
+  {
+    "id": "openai-pdf",
+    "name": "PDF (OpenAI)",
+    "description": "PDF 鏂囦欢澶勭悊",
+    "repo": "openai/skills",
+    "category": "documentation",
+    "tags": [
+      "PDF",
+      "鏂囨。"
+    ],
+    "stars": 3000,
+    "installs": 20000
+  },
+  {
+    "id": "openai-figma",
+    "name": "Figma (OpenAI)",
+    "description": "Figma 璁捐鏂囦欢澶勭悊",
+    "repo": "openai/skills",
+    "category": "creative",
+    "tags": [
+      "Figma",
+      "璁捐"
+    ],
+    "stars": 3000,
+    "installs": 15000
+  },
+  {
+    "id": "openai-notion",
+    "name": "Notion (OpenAI)",
+    "description": "Notion 鐭ヨ瘑绠＄悊闆嗘垚",
+    "repo": "openai/skills",
+    "category": "documentation",
+    "tags": [
+      "Notion",
+      "鐭ヨ瘑"
+    ],
+    "stars": 3000,
+    "installs": 10000
+  },
+  {
+    "id": "openai-screenshot",
+    "name": "Screenshot (OpenAI)",
+    "description": "鎴浘鍜屽浘鍍忓垎鏋?,
+    "repo": "openai/skills",
+    "category": "creative",
+    "tags": [
+      "鎴浘",
+      "鍥惧儚"
+    ],
+    "stars": 3000,
+    "installs": 12000
+  },
+  {
+    "id": "openai-playwright",
+    "name": "Playwright (OpenAI)",
+    "description": "Playwright 娴忚鍣ㄨ嚜鍔ㄥ寲",
+    "repo": "openai/skills",
+    "category": "engineering",
+    "tags": [
+      "娴嬭瘯",
+      "娴忚鍣?
+    ],
+    "stars": 3000,
+    "installs": 15000
+  },
+  {
+    "id": "openai-jupyter",
+    "name": "Jupyter Notebook",
+    "description": "Jupyter 鏁版嵁鍒嗘瀽",
+    "repo": "openai/skills",
     "category": "data",
     "tags": [
-      "数据",
-      "探索"
+      "Jupyter",
+      "鍒嗘瀽"
     ],
-    "stars": 500,
+    "stars": 3000,
+    "installs": 8000
+  },
+  {
+    "id": "openai-imagegen",
+    "name": "Image Gen (OpenAI)",
+    "description": "AI 鍥剧墖鐢熸垚",
+    "repo": "openai/skills",
+    "category": "creative",
+    "tags": [
+      "鍥剧墖",
+      "鐢熸垚"
+    ],
+    "stars": 3000,
+    "installs": 10000
+  },
+  {
+    "id": "openai-transcribe",
+    "name": "Transcribe (OpenAI)",
+    "description": "璇煶杞枃瀛?,
+    "repo": "openai/skills",
+    "category": "data",
+    "tags": [
+      "璇煶",
+      "杞啓"
+    ],
+    "stars": 3000,
+    "installs": 9000
+  },
+  {
+    "id": "openai-slides",
+    "name": "Slides (OpenAI)",
+    "description": "PPT 骞荤伅鐗囩敓鎴?,
+    "repo": "openai/skills",
+    "category": "documentation",
+    "tags": [
+      "PPT",
+      "婕旂ず"
+    ],
+    "stars": 3000,
+    "installs": 8000
+  },
+  {
+    "id": "openai-linear",
+    "name": "Linear (OpenAI)",
+    "description": "Linear 椤圭洰绠＄悊闆嗘垚",
+    "repo": "openai/skills",
+    "category": "documentation",
+    "tags": [
+      "Linear",
+      "椤圭洰"
+    ],
+    "stars": 3000,
+    "installs": 10000
+  },
+  {
+    "id": "openai-sentry",
+    "name": "Sentry (OpenAI)",
+    "description": "閿欒鐩戞帶闆嗘垚",
+    "repo": "openai/skills",
+    "category": "engineering",
+    "tags": [
+      "鐩戞帶",
+      "閿欒"
+    ],
+    "stars": 3000,
+    "installs": 7000
+  },
+  {
+    "id": "microsoft-foundry",
+    "name": "Microsoft Foundry",
+    "description": "Azure AI Foundry (452K瀹夎)",
+    "repo": "microsoft/azure-skills",
+    "category": "ai",
+    "tags": [
+      "Azure",
+      "AI"
+    ],
+    "stars": 2700,
+    "installs": 452000
+  },
+  {
+    "id": "azure-ai",
+    "name": "Azure AI",
+    "description": "Azure AI 鏈嶅姟闆嗘垚 (448K瀹夎)",
+    "repo": "microsoft/azure-skills",
+    "category": "ai",
+    "tags": [
+      "Azure",
+      "AI"
+    ],
+    "stars": 2700,
+    "installs": 448000
+  },
+  {
+    "id": "azure-deploy",
+    "name": "Azure Deploy",
+    "description": "Azure 閮ㄧ讲鑷姩鍖?(428K瀹夎)",
+    "repo": "microsoft/azure-skills",
+    "category": "engineering",
+    "tags": [
+      "Azure",
+      "閮ㄧ讲"
+    ],
+    "stars": 2700,
+    "installs": 428000
+  },
+  {
+    "id": "vercel-deploy",
+    "name": "Deploy to Vercel",
+    "description": "涓€閿儴缃插埌 Vercel",
+    "repo": "vercel-labs/agent-skills",
+    "category": "engineering",
+    "tags": [
+      "閮ㄧ讲",
+      "Vercel"
+    ],
+    "stars": 5000,
+    "installs": 300000
+  },
+  {
+    "id": "vercel-composition-patterns",
+    "name": "Vercel Composition Patterns",
+    "description": "Vercel 缁勫悎妯″紡鏈€浣冲疄璺?,
+    "repo": "vercel-labs/agent-skills",
+    "category": "engineering",
+    "tags": [
+      "妯″紡",
+      "Vercel"
+    ],
+    "stars": 5000,
+    "installs": 200000
+  },
+  {
+    "id": "knowledge-synthesis",
+    "name": "Knowledge Synthesis",
+    "description": "鐭ヨ瘑缁煎悎鍜屾€荤粨 (4.6K瀹夎)",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "strategy",
+    "tags": [
+      "鐭ヨ瘑",
+      "鎬荤粨"
+    ],
+    "stars": 22000,
+    "installs": 4600
+  },
+  {
+    "id": "incident-response",
+    "name": "Incident Response",
+    "description": "浜嬫晠鍝嶅簲宸ヤ綔娴?(4K瀹夎)",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "engineering",
+    "tags": [
+      "浜嬫晠",
+      "鍝嶅簲"
+    ],
+    "stars": 22000,
     "installs": 4000
   },
   {
-    "id": "sql-queries",
-    "type": "skill",
-    "name": "SQL Queries",
-    "description": "SQL 查询编写和优化",
+    "id": "deploy-checklist",
+    "name": "Deploy Checklist",
+    "description": "閮ㄧ讲妫€鏌ユ竻鍗?(3.8K瀹夎)",
     "repo": "anthropics/knowledge-work-plugins",
-    "category": "data",
+    "category": "engineering",
     "tags": [
-      "SQL",
-      "查询"
+      "閮ㄧ讲",
+      "娓呭崟"
     ],
-    "stars": 500,
-    "installs": 3100
+    "stars": 22000,
+    "installs": 3800
   },
   {
-    "id": "statistical-analysis",
-    "type": "skill",
-    "name": "Statistical Analysis",
-    "description": "统计分析方法指导",
+    "id": "daily-briefing",
+    "name": "Daily Briefing",
+    "description": "姣忔棩绠€鎶ョ敓鎴?(2.3K瀹夎)",
     "repo": "anthropics/knowledge-work-plugins",
-    "category": "data",
+    "category": "documentation",
     "tags": [
-      "统计",
-      "分析"
+      "绠€鎶?,
+      "鏃ユ姤"
     ],
-    "stars": 500,
-    "installs": 3100
-  },
-  {
-    "id": "validate-data",
-    "type": "skill",
-    "name": "Validate Data",
-    "description": "数据验证和质量检查",
-    "repo": "anthropics/knowledge-work-plugins",
-    "category": "data",
-    "tags": [
-      "验证",
-      "质量"
-    ],
-    "stars": 500,
+    "stars": 22000,
     "installs": 2300
   },
   {
-    "id": "caveman",
-    "type": "skill",
-    "name": "Caveman",
-    "description": "节省65%输出token，原始人说话模式",
-    "repo": "JuliusBrussee/caveman",
-    "category": "optimization",
+    "id": "legal-risk-assessment",
+    "name": "Legal Risk Assessment",
+    "description": "娉曞緥椋庨櫓璇勪及 (3.4K瀹夎)",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "strategy",
     "tags": [
-      "Token",
-      "省钱"
+      "娉曞緥",
+      "椋庨櫓"
     ],
-    "stars": 82445
+    "stars": 22000,
+    "installs": 3400
   },
   {
-    "id": "task-management",
-    "type": "skill",
-    "name": "Task Management",
-    "description": "任务管理工作流",
+    "id": "ux-copy",
+    "name": "UX Copy",
+    "description": "UX 鏂囨鎾板啓 (2.7K瀹夎)",
     "repo": "anthropics/knowledge-work-plugins",
-    "category": "optimization",
+    "category": "creative",
     "tags": [
-      "任务",
-      "管理"
+      "UX",
+      "鏂囨"
+    ],
+    "stars": 22000,
+    "installs": 2700
+  },
+  {
+    "id": "design-system",
+    "name": "Design System",
+    "description": "璁捐绯荤粺绠＄悊 (2.6K瀹夎)",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "creative",
+    "tags": [
+      "璁捐",
+      "绯荤粺"
+    ],
+    "stars": 22000,
+    "installs": 2600
+  },
+  {
+    "id": "interview-prep",
+    "name": "Interview Prep",
+    "description": "闈㈣瘯鍑嗗 (2.5K瀹夎)",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "documentation",
+    "tags": [
+      "闈㈣瘯",
+      "鍑嗗"
+    ],
+    "stars": 22000,
+    "installs": 2500
+  },
+  {
+    "id": "accessibility-review",
+    "name": "Accessibility Review",
+    "description": "鏃犻殰纰嶅鏌?(2.5K瀹夎)",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "engineering",
+    "tags": [
+      "鏃犻殰纰?,
+      "瀹℃煡"
+    ],
+    "stars": 22000,
+    "installs": 2500
+  },
+  {
+    "id": "brand-voice-enforcement",
+    "name": "Brand Voice Enforcement",
+    "description": "鍝佺墝璇皟涓€鑷存€ф鏌?(2.4K瀹夎)",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "creative",
+    "tags": [
+      "鍝佺墝",
+      "璇皟"
+    ],
+    "stars": 22000,
+    "installs": 2400
+  },
+  {
+    "id": "review-contract",
+    "name": "Review Contract",
+    "description": "鍚堝悓瀹℃煡 (2.4K瀹夎)",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "strategy",
+    "tags": [
+      "鍚堝悓",
+      "娉曞緥"
+    ],
+    "stars": 22000,
+    "installs": 2400
+  },
+  {
+    "id": "campaign-plan",
+    "name": "Campaign Plan",
+    "description": "钀ラ攢娲诲姩绛栧垝 (2.1K瀹夎)",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "ecommerce",
+    "tags": [
+      "钀ラ攢",
+      "绛栧垝"
+    ],
+    "stars": 22000,
+    "installs": 2100
+  },
+  {
+    "id": "customer-research",
+    "name": "Customer Research",
+    "description": "瀹㈡埛鐮旂┒ (2.1K瀹夎)",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "strategy",
+    "tags": [
+      "瀹㈡埛",
+      "鐮旂┒"
+    ],
+    "stars": 22000,
+    "installs": 2100
+  },
+  {
+    "id": "performance-review",
+    "name": "Performance Review",
+    "description": "缁╂晥璇勪及 (2.1K瀹夎)",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "documentation",
+    "tags": [
+      "缁╂晥",
+      "璇勪及"
+    ],
+    "stars": 22000,
+    "installs": 2100
+  },
+  {
+    "id": "forecast",
+    "name": "Forecast",
+    "description": "涓氬姟棰勬祴 (2K瀹夎)",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "strategy",
+    "tags": [
+      "棰勬祴",
+      "涓氬姟"
+    ],
+    "stars": 22000,
+    "installs": 2000
+  },
+  {
+    "id": "email-sequence",
+    "name": "Email Sequence",
+    "description": "閭欢搴忓垪璁捐 (1.9K瀹夎)",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "ecommerce",
+    "tags": [
+      "閭欢",
+      "钀ラ攢"
+    ],
+    "stars": 22000,
+    "installs": 1900
+  },
+  {
+    "id": "vendor-review",
+    "name": "Vendor Review",
+    "description": "渚涘簲鍟嗚瘎浼?(1.9K瀹夎)",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "strategy",
+    "tags": [
+      "渚涘簲鍟?,
+      "璇勪及"
+    ],
+    "stars": 22000,
+    "installs": 1900
+  },
+  {
+    "id": "ai-product-strategy",
+    "name": "AI Product Strategy",
+    "description": "AI浜у搧绛栫暐瀹屾暣鏂规",
+    "repo": "oldwinter/skills",
+    "category": "ai",
+    "tags": [
+      "AI",
+      "绛栫暐"
+    ],
+    "stars": 5
+  },
+  {
+    "id": "skill-creator",
+    "name": "Skill Creator",
+    "description": "鍒涘缓鍜屽彂甯冩柊鎶€鑳?,
+    "repo": "anthropics/skills",
+    "category": "agent-workflows",
+    "tags": [
+      "鍒涘缓",
+      "鍙戝竷"
+    ],
+    "stars": 8000,
+    "installs": 200000
+  },
+  {
+    "id": "agent-development",
+    "name": "Agent Development",
+    "description": "Agent 寮€鍙戞渶浣冲疄璺?,
+    "repo": "anthropics/claude-code",
+    "category": "agent-workflows",
+    "tags": [
+      "寮€鍙?,
+      "Agent"
+    ],
+    "stars": 8000,
+    "installs": 50000
+  },
+  {
+    "id": "build-mcp-app",
+    "name": "Build MCP App",
+    "description": "鏋勫缓 MCP 搴旂敤",
+    "repo": "anthropics/claude-plugins-official",
+    "category": "agent-workflows",
+    "tags": [
+      "MCP",
+      "搴旂敤"
     ],
     "stars": 500,
-    "installs": 5500
+    "installs": 20000
   },
   {
-    "id": "memory-management",
-    "type": "skill",
-    "name": "Memory Management",
-    "description": "Agent 记忆管理最佳实践",
-    "repo": "anthropics/knowledge-work-plugins",
-    "category": "optimization",
+    "id": "proactive-agent",
+    "name": "Proactive Agent 3.1.0",
+    "description": "WAL鍗忚+鑷剤+鍙嶅悜鎻愮ず锛岃Agent涓诲姩棰勫垽",
+    "repo": "blackmcvn/proactive-agent-3-1-0",
+    "category": "agent-workflows",
     "tags": [
-      "记忆",
-      "管理"
+      "涓诲姩",
+      "鑷剤"
     ],
-    "stars": 500,
-    "installs": 5400
+    "stars": 113
   },
   {
-    "id": "prompt-engineer",
-    "type": "skill",
-    "name": "Prompt Engineer",
-    "description": "Prompt 工程优化技能",
+    "id": "agent-team-builder",
+    "name": "Agent Team Builder",
+    "description": "澶欰gent鍥㈤槦鎼缓鍚戝",
+    "repo": "superjavason/agent-team-builder",
+    "category": "agent-workflows",
+    "tags": [
+      "鍥㈤槦",
+      "鍗忎綔"
+    ],
+    "stars": 8
+  },
+  {
+    "id": "startup-pitch",
+    "name": "Startup Pitch",
+    "description": "鍒涗笟 Pitch 璁捐",
+    "repo": "TheCraigHewitt/skills",
+    "category": "strategy",
+    "tags": [
+      "鍒涗笟",
+      "Pitch"
+    ],
+    "stars": 118
+  },
+  {
+    "id": "sales-outreach",
+    "name": "Sales Outreach",
+    "description": "閿€鍞鑱旂瓥鐣?,
+    "repo": "TheCraigHewitt/skills",
+    "category": "ecommerce",
+    "tags": [
+      "閿€鍞?,
+      "澶栬仈"
+    ],
+    "stars": 118
+  },
+  {
+    "id": "linkedin-content",
+    "name": "LinkedIn Content",
+    "description": "LinkedIn 鍐呭鍒涗綔",
+    "repo": "TheCraigHewitt/skills",
+    "category": "ecommerce",
+    "tags": [
+      "LinkedIn",
+      "鍐呭"
+    ],
+    "stars": 118
+  },
+  {
+    "id": "youtube-strategy",
+    "name": "YouTube Strategy",
+    "description": "YouTube 鍐呭绛栫暐",
+    "repo": "TheCraigHewitt/skills",
+    "category": "ecommerce",
+    "tags": [
+      "YouTube",
+      "绛栫暐"
+    ],
+    "stars": 118
+  },
+  {
+    "id": "ceo-weekly-review",
+    "name": "CEO Weekly Review",
+    "description": "CEO 鍛ㄥ害鍥為【",
+    "repo": "TheCraigHewitt/skills",
+    "category": "strategy",
+    "tags": [
+      "CEO",
+      "鍥為【"
+    ],
+    "stars": 118
+  },
+  {
+    "id": "launchfit-ai",
+    "name": "LaunchFit AI",
+    "description": "璺ㄥ浜у搧涓婃灦鍑嗗搴﹀鏌?,
+    "repo": "jwynia/launchfit-ai",
+    "category": "ecommerce",
+    "tags": [
+      "璺ㄥ",
+      "鍚堣"
+    ],
+    "stars": 5
+  },
+  {
+    "id": "feishu-bot-builder",
+    "name": "Feishu Bot Builder",
+    "description": "椋炰功鏈哄櫒浜哄揩閫熸瀯寤?,
+    "repo": "carl-ai-lab/feishu-bot-builder",
+    "category": "feishu",
+    "tags": [
+      "椋炰功",
+      "鏈哄櫒浜?
+    ],
+    "stars": 23
+  },
+  {
+    "id": "shopify-expert",
+    "name": "Shopify Expert",
+    "description": "Shopify 鐢靛晢涓撳",
     "repo": "jeffallan/claude-skills",
-    "category": "optimization",
+    "category": "ecommerce",
     "tags": [
-      "Prompt",
-      "优化"
+      "Shopify",
+      "鐢靛晢"
     ],
     "stars": 118,
     "installs": 3800
   },
   {
-    "id": "process-optimization",
-    "type": "skill",
-    "name": "Process Optimization",
-    "description": "业务流程优化分析",
-    "repo": "anthropics/knowledge-work-plugins",
-    "category": "optimization",
-    "tags": [
-      "流程",
-      "优化"
-    ],
-    "stars": 500,
-    "installs": 2100
-  },
-  {
-    "id": "documentation",
-    "type": "skill",
-    "name": "Documentation",
-    "description": "技术文档编写工作流",
+    "id": "view-pdf",
+    "name": "View PDF",
+    "description": "PDF 鏌ョ湅鍜屽鐞?(4.7K瀹夎)",
     "repo": "anthropics/knowledge-work-plugins",
     "category": "documentation",
     "tags": [
-      "文档",
-      "编写"
+      "PDF",
+      "鏌ョ湅"
     ],
-    "stars": 500,
-    "installs": 6800
+    "stars": 22000,
+    "installs": 4700
   },
   {
-    "id": "sprint-planning",
-    "type": "skill",
-    "name": "Sprint Planning",
-    "description": "Sprint 计划工作流",
-    "repo": "anthropics/knowledge-work-plugins",
-    "category": "documentation",
+    "id": "prd-writer",
+    "name": "PRD Writer",
+    "description": "浜у搧鎯虫硶鈫扨RD鈫掑師鍨嬫柟妗堚啋浠诲姟鎷嗗垎",
+    "repo": "guanghua1/prd-writer",
+    "category": "product",
     "tags": [
-      "Sprint",
-      "计划"
+      "PRD",
+      "鏂囨。"
     ],
-    "stars": 500,
-    "installs": 2000
+    "stars": 3
   },
   {
-    "id": "roadmap-update",
-    "type": "skill",
-    "name": "Roadmap Update",
-    "description": "产品路线图更新流程",
-    "repo": "anthropics/knowledge-work-plugins",
-    "category": "documentation",
+    "id": "prd-to-prototype",
+    "name": "PRD to Prototype",
+    "description": "PRD鈫掗珮淇濈湡HTML/Tailwind鍘熷瀷",
+    "repo": "zengxming45/prd-to-prototype",
+    "category": "product",
     "tags": [
-      "路线图",
-      "更新"
-    ],
-    "stars": 500,
-    "installs": 2000
-  },
-  {
-    "id": "ai-product-strategy",
-    "type": "skill",
-    "name": "AI Product Strategy",
-    "description": "AI 产品策略：用例优先级/系统计划/安全/路线图",
-    "repo": "oldwinter/skills",
-    "category": "ai",
-    "tags": [
-      "AI",
-      "策略"
+      "鍘熷瀷",
+      "HTML"
     ],
     "stars": 5
   },
   {
-    "id": "system-design",
-    "type": "skill",
-    "name": "System Design",
-    "description": "系统设计方法论",
-    "repo": "anthropics/knowledge-work-plugins",
-    "category": "ai",
+    "id": "product-expert",
+    "name": "Product Expert",
+    "description": "15骞碨aaS浜у搧鍚堜紮浜猴紝鑻忔牸鎷夊簳寮忔€濈淮",
+    "repo": "felixgeelhaar/skills",
+    "category": "product",
     "tags": [
-      "系统",
-      "设计"
+      "浜у搧",
+      "鎴樼暐"
     ],
-    "stars": 500,
-    "installs": 5400
+    "stars": 5
   },
   {
-    "id": "debug",
-    "type": "skill",
-    "name": "Debug",
-    "description": "系统化调试工作流",
-    "repo": "anthropics/knowledge-work-plugins",
-    "category": "ai",
+    "id": "mckinsey-research",
+    "name": "McKinsey Research",
+    "description": "12姝ユ垬鐣ュ垎鏋愶細TAM/娉㈢壒浜斿姏/璐㈠姟妯″瀷",
+    "repo": "Abdullah4AI/mckinsey-research",
+    "category": "strategy",
     "tags": [
-      "调试",
-      "排错"
+      "鎴樼暐",
+      "鍒嗘瀽"
     ],
-    "stars": 500,
+    "stars": 22
+  },
+  {
+    "id": "strategy-consultant",
+    "name": "Strategy Consultant",
+    "description": "MECE/IssueTree/鍋囪妫€楠?甯曠疮鎵樹簲妗嗘灦",
+    "repo": "ConrayGambit/Strategy-Consultant-5-Consulting-Frameworks",
+    "category": "strategy",
+    "tags": [
+      "妗嗘灦",
+      "鍜ㄨ"
+    ],
+    "stars": 11
+  },
+  {
+    "id": "caveman",
+    "name": "Caveman",
+    "description": "鑺傜渷65%杈撳嚭token (82K鏄?",
+    "repo": "JuliusBrussee/caveman",
+    "category": "optimization",
+    "tags": [
+      "Token",
+      "鐪侀挶"
+    ],
+    "stars": 82445
+  },
+  {
+    "id": "agent-skills-addy",
+    "name": "Agent Skills (Addy Osmani)",
+    "description": "24涓敓浜х骇宸ョ▼鎶€鑳?(77K鏄?",
+    "repo": "addyosmani/agent-skills",
+    "category": "engineering",
+    "tags": [
+      "宸ョ▼",
+      "鍏ㄦ祦绋?
+    ],
+    "stars": 77851
+  },
+  {
+    "id": "open-design",
+    "name": "Open Design",
+    "description": "寮€婧愯璁″伐鍏凤紝鍘熷瀷/浠〃鐩?骞荤伅鐗?(77K鏄?",
+    "repo": "nexu-io/open-design",
+    "category": "creative",
+    "tags": [
+      "璁捐",
+      "鍘熷瀷"
+    ],
+    "stars": 77792
+  },
+  {
+    "id": "database-optimizer",
+    "name": "Database Optimizer",
+    "description": "鏁版嵁搴撲紭鍖?(3.9K瀹夎)",
+    "repo": "jeffallan/claude-skills",
+    "category": "engineering",
+    "tags": [
+      "鏁版嵁搴?,
+      "浼樺寲"
+    ],
+    "stars": 118,
+    "installs": 3900
+  },
+  {
+    "id": "api-designer",
+    "name": "API Designer",
+    "description": "API 璁捐 (4.3K瀹夎)",
+    "repo": "jeffallan/claude-skills",
+    "category": "engineering",
+    "tags": [
+      "API",
+      "璁捐"
+    ],
+    "stars": 118,
+    "installs": 4300
+  },
+  {
+    "id": "security-reviewer",
+    "name": "Security Reviewer",
+    "description": "瀹夊叏瀹℃煡 (4K瀹夎)",
+    "repo": "jeffallan/claude-skills",
+    "category": "engineering",
+    "tags": [
+      "瀹夊叏",
+      "瀹℃煡"
+    ],
+    "stars": 118,
     "installs": 4000
+  },
+  {
+    "id": "monitoring-expert",
+    "name": "Monitoring Expert",
+    "description": "鐩戞帶涓撳 (3.6K瀹夎)",
+    "repo": "jeffallan/claude-skills",
+    "category": "engineering",
+    "tags": [
+      "鐩戞帶",
+      "杩愮淮"
+    ],
+    "stars": 118,
+    "installs": 3600
+  },
+  {
+    "id": "pandas-pro",
+    "name": "Pandas Pro",
+    "description": "Pandas 鏁版嵁鍒嗘瀽涓撳 (4K瀹夎)",
+    "repo": "jeffallan/claude-skills",
+    "category": "data",
+    "tags": [
+      "Pandas",
+      "Python"
+    ],
+    "stars": 118,
+    "installs": 4000
+  },
+  {
+    "id": "obsidian-vault",
+    "name": "Obsidian Vault",
+    "description": "Obsidian 鐭ヨ瘑搴撶鐞?(125K瀹夎)",
+    "repo": "mattpocock/skills",
+    "category": "documentation",
+    "tags": [
+      "Obsidian",
+      "鐭ヨ瘑搴?
+    ],
+    "stars": 10000,
+    "installs": 125000
+  },
+  {
+    "id": "scaffold-exercises",
+    "name": "Scaffold Exercises",
+    "description": "鎼缓缁冧範妗嗘灦 (118K瀹夎)",
+    "repo": "mattpocock/skills",
+    "category": "documentation",
+    "tags": [
+      "缁冧範",
+      "鏁欑▼"
+    ],
+    "stars": 10000,
+    "installs": 118000
+  },
+  {
+    "id": "setup-pre-commit",
+    "name": "Setup Pre-commit",
+    "description": "閰嶇疆 pre-commit 閽╁瓙 (120K瀹夎)",
+    "repo": "mattpocock/skills",
+    "category": "engineering",
+    "tags": [
+      "Git",
+      "閽╁瓙"
+    ],
+    "stars": 10000,
+    "installs": 120000
+  },
+  {
+    "id": "git-guardrails",
+    "name": "Git Guardrails",
+    "description": "Git 瀹夊叏鎶ゆ爮 (125K瀹夎)",
+    "repo": "mattpocock/skills",
+    "category": "engineering",
+    "tags": [
+      "Git",
+      "瀹夊叏"
+    ],
+    "stars": 10000,
+    "installs": 125000
   }
 ]
