@@ -1,62 +1,62 @@
 [
   {
     "id": "agent-workflows",
-    "name": "Agent 工作流",
-    "icon": "🤖"
+    "name": "Agent 宸ヤ綔娴?,
+    "icon": "馃"
   },
   {
     "id": "engineering",
-    "name": "工程开发",
-    "icon": "🔧"
+    "name": "宸ョ▼寮€鍙?,
+    "icon": "馃敡"
   },
   {
     "id": "product",
-    "name": "产品管理",
-    "icon": "📋"
+    "name": "浜у搧绠＄悊",
+    "icon": "馃搵"
   },
   {
     "id": "strategy",
-    "name": "战略分析",
-    "icon": "🎯"
+    "name": "鎴樼暐鍒嗘瀽",
+    "icon": "馃幆"
   },
   {
     "id": "creative",
-    "name": "创意设计",
-    "icon": "🎨"
+    "name": "鍒涙剰璁捐",
+    "icon": "馃帹"
   },
   {
     "id": "ecommerce",
-    "name": "跨境电商",
-    "icon": "🛒"
+    "name": "璺ㄥ鐢靛晢",
+    "icon": "馃洅"
   },
   {
     "id": "feishu",
-    "name": "飞书",
-    "icon": "🕊️"
+    "name": "椋炰功",
+    "icon": "馃晩锔?
   },
   {
     "id": "data",
-    "name": "数据分析",
-    "icon": "📊"
+    "name": "鏁版嵁鍒嗘瀽",
+    "icon": "馃搳"
   },
   {
     "id": "optimization",
-    "name": "效率优化",
-    "icon": "⚡"
+    "name": "鏁堢巼浼樺寲",
+    "icon": "鈿?
   },
   {
     "id": "documentation",
-    "name": "文档协作",
-    "icon": "📝"
+    "name": "鏂囨。鍗忎綔",
+    "icon": "馃摑"
   },
   {
     "id": "ai",
     "name": "AI & LLM",
-    "icon": "🧠"
+    "icon": "馃"
   },
   {
     "id": "tools",
-    "name": "工具",
-    "icon": "🛠️"
+    "name": "宸ュ叿",
+    "icon": "馃洜锔?
   }
 ]
