@@ -2,14 +2,13 @@
   {
     "id": "plugin-marketplace",
     "type": "plugin",
-    "name": "插件市场",
-    "description": "HanaAgent 社区插件 & Skill 应用商店",
+    "name": "鎻掍欢甯傚満",
+    "description": "HanaAgent 绀惧尯鎻掍欢 & Skill 搴旂敤鍟嗗簵",
     "repo": "hayou2002/plugin-marketplace",
-    "version": "0.1.0",
     "category": "tools",
     "tags": [
-      "插件",
-      "商店"
+      "鎻掍欢",
+      "鍟嗗簵"
     ],
     "stars": 3
   },
@@ -17,12 +16,11 @@
     "id": "hanako-hyperframes",
     "type": "plugin",
     "name": "HyperFrames",
-    "description": "HTML 转视频渲染引擎",
+    "description": "HTML 杞棰戞覆鏌撳紩鎿?,
     "repo": "heygen-com/hyperframes",
-    "version": "0.7.54",
     "category": "creative",
     "tags": [
-      "视频",
+      "瑙嗛",
       "HTML"
     ],
     "stars": 34387
@@ -31,13 +29,12 @@
     "id": "open-design",
     "type": "plugin",
     "name": "Open Design",
-    "description": "开源设计工具，原型/落地页/仪表盘/幻灯片生成",
+    "description": "寮€婧愯璁″伐鍏?,
     "repo": "nexu-io/open-design",
-    "version": "0.14.1",
     "category": "creative",
     "tags": [
-      "设计",
-      "原型"
+      "璁捐",
+      "鍘熷瀷"
     ],
     "stars": 77792
   }
