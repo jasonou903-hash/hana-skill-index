@@ -4,40 +4,41 @@
     "type": "plugin",
     "name": "插件市场",
     "description": "HanaAgent 社区插件 & Skill 应用商店",
-    "author": {
-      "name": "hayou2002",
-      "github": "hayou2002"
-    },
     "repo": "hayou2002/plugin-marketplace",
     "version": "0.1.0",
     "category": "tools",
     "tags": [
       "插件",
-      "商店",
-      "技能"
+      "商店"
     ],
-    "stars": 3,
-    "created_at": "2026-06-30T00:50:10Z"
+    "stars": 3
   },
   {
     "id": "hanako-hyperframes",
     "type": "plugin",
     "name": "HyperFrames",
-    "description": "HTML 转视频渲染引擎，AI 代理友好",
-    "author": {
-      "name": "HeyGen",
-      "github": "heygen-com"
-    },
+    "description": "HTML 转视频渲染引擎",
     "repo": "heygen-com/hyperframes",
     "version": "0.7.54",
     "category": "creative",
     "tags": [
       "视频",
-      "HTML",
-      "GSAP",
-      "渲染"
+      "HTML"
     ],
-    "stars": 34387,
-    "created_at": "2026-03-10T01:51:06Z"
+    "stars": 34387
+  },
+  {
+    "id": "open-design",
+    "type": "plugin",
+    "name": "Open Design",
+    "description": "开源设计工具，原型/落地页/仪表盘/幻灯片生成",
+    "repo": "nexu-io/open-design",
+    "version": "0.14.1",
+    "category": "creative",
+    "tags": [
+      "设计",
+      "原型"
+    ],
+    "stars": 77792
   }
 ]
