@@ -1,254 +1,705 @@
 [
   {
-    "id": "agent-skills",
+    "id": "find-skills",
     "type": "skill",
-    "name": "Agent Skills (Addy Osmani)",
-    "description": "24 个生产级工程技能：spec/plan/build/test/review/ship 全流程",
-    "author": {
-      "name": "Addy Osmani",
-      "github": "addyosmani"
-    },
-    "repo": "addyosmani/agent-skills",
-    "version": "0.6.4",
-    "category": "engineering",
+    "name": "Find Skills",
+    "description": "在技能生态系统中搜索并安装技能",
+    "repo": "vercel-labs/skills",
+    "category": "agent-workflows",
     "tags": [
-      "工程",
-      "测试",
-      "代码审查",
-      "部署"
+      "搜索",
+      "安装"
     ],
-    "stars": 77851,
-    "created_at": "2026-02-15T20:20:26Z"
+    "stars": 26000,
+    "installs": 2500000
   },
   {
-    "id": "caveman",
+    "id": "agent-browser",
     "type": "skill",
-    "name": "Caveman",
-    "description": "让 AI Agent 像原始人一样说话，节省 65% 输出 token",
-    "author": {
-      "name": "Julius Brussee",
-      "github": "JuliusBrussee"
-    },
-    "repo": "JuliusBrussee/caveman",
-    "version": "1.9.1",
-    "category": "optimization",
+    "name": "Agent Browser",
+    "description": "完整浏览器自动化：导航/点击/填表/截图",
+    "repo": "vercel-labs/agent-browser",
+    "category": "agent-workflows",
     "tags": [
-      "Token",
-      "优化",
-      "省钱",
-      "效率"
+      "浏览器",
+      "自动化"
     ],
-    "stars": 82445,
-    "created_at": "2026-04-04T10:03:00Z"
+    "stars": 5000,
+    "installs": 541000
   },
   {
-    "id": "mckinsey-research",
+    "id": "skill-creator",
     "type": "skill",
-    "name": "McKinsey Research",
-    "description": "麦肯锡级 12 步战略分析：TAM/波特五力/财务模型/市场进入策略",
-    "author": {
-      "name": "Abdullah4AI",
-      "github": "Abdullah4AI"
-    },
-    "repo": "Abdullah4AI/mckinsey-research",
-    "version": "1.0.0",
-    "category": "strategy",
+    "name": "Skill Creator",
+    "description": "在 Agent 内部创建、测试和发布新技能",
+    "repo": "anthropics/skills",
+    "category": "agent-workflows",
     "tags": [
-      "战略",
-      "市场分析",
-      "咨询",
-      "TAM"
+      "创建",
+      "发布"
     ],
-    "stars": 22,
-    "created_at": "2026-02-11T06:37:49Z"
-  },
-  {
-    "id": "strategy-consultant",
-    "type": "skill",
-    "name": "Strategy Consultant",
-    "description": "MECE/Issue Tree/假设检验/帕累托/So What 五框架，白人板级战略分析",
-    "author": {
-      "name": "ConrayGambit",
-      "github": "ConrayGambit"
-    },
-    "repo": "ConrayGambit/Strategy-Consultant-5-Consulting-Frameworks",
-    "version": "1.0.0",
-    "category": "strategy",
-    "tags": [
-      "战略",
-      "框架",
-      "MECE",
-      "咨询"
-    ],
-    "stars": 11,
-    "created_at": "2026-04-27T15:23:48Z"
-  },
-  {
-    "id": "prd-writer",
-    "type": "skill",
-    "name": "PRD Writer",
-    "description": "把产品想法转成可交付的 PRD、Word 文档、原型方案和研发任务拆分",
-    "author": {
-      "name": "guanghua1",
-      "github": "guanghua1"
-    },
-    "repo": "guanghua1/prd-writer",
-    "version": "1.0.0",
-    "category": "product",
-    "tags": [
-      "PRD",
-      "产品",
-      "需求",
-      "原型"
-    ],
-    "stars": 3,
-    "created_at": "2026-05-11T10:14:42Z"
-  },
-  {
-    "id": "prd-to-prototype",
-    "type": "skill",
-    "name": "PRD to Prototype",
-    "description": "从产品需求到高保真 HTML/Tailwind 交互原型的完整工作流",
-    "author": {
-      "name": "zengxming45",
-      "github": "zengxming45"
-    },
-    "repo": "zengxming45/prd-to-prototype",
-    "version": "1.0.0",
-    "category": "product",
-    "tags": [
-      "PRD",
-      "原型",
-      "HTML",
-      "Tailwind"
-    ],
-    "stars": 5,
-    "created_at": "2026-05-01T00:00:00Z"
-  },
-  {
-    "id": "product-expert",
-    "type": "skill",
-    "name": "Product Expert",
-    "description": "15 年经验的 Saas 产品合伙人，苏格拉底式思维伙伴，Marty Cagan + Teresa Torres 框架",
-    "author": {
-      "name": "Felix Geelhaar",
-      "github": "felixgeelhaar"
-    },
-    "repo": "felixgeelhaar/skills",
-    "version": "1.0.0",
-    "category": "product",
-    "tags": [
-      "产品",
-      "战略",
-      "PRD",
-      "OKR"
-    ],
-    "stars": 5,
-    "created_at": "2026-03-01T00:00:00Z"
+    "stars": 8000,
+    "installs": 200000
   },
   {
     "id": "proactive-agent",
     "type": "skill",
     "name": "Proactive Agent 3.1.0",
-    "description": "让 AI Agent 从被动等指令变为主动预判需求，WAL 协议+自愈+反向提示",
-    "author": {
-      "name": "Hal Labs",
-      "github": "blackmcvn"
-    },
+    "description": "WAL 协议+自愈+反向提示，让 Agent 主动预判需求",
     "repo": "blackmcvn/proactive-agent-3-1-0",
-    "version": "3.1.0",
-    "category": "agent-engineering",
+    "category": "agent-workflows",
     "tags": [
       "主动",
-      "自愈",
-      "记忆",
-      "Agent工程"
+      "自愈"
     ],
     "stars": 113,
-    "created_at": "2026-03-01T00:00:00Z"
+    "installs": 5000
   },
   {
     "id": "agent-team-builder",
     "type": "skill",
     "name": "Agent Team Builder",
-    "description": "多 Agent 团队搭建向导：角色设计→路由配置→协作规则→共享记忆",
-    "author": {
-      "name": "SuperJason",
-      "github": "superjavason"
-    },
+    "description": "多 Agent 团队搭建向导",
     "repo": "superjavason/agent-team-builder",
-    "version": "1.0.0",
-    "category": "agent-engineering",
+    "category": "agent-workflows",
     "tags": [
-      "Agent团队",
-      "多Agent",
-      "协作",
-      "配置"
+      "团队",
+      "协作"
     ],
-    "stars": 8,
-    "created_at": "2026-04-01T00:00:00Z"
+    "stars": 8
   },
   {
-    "id": "feishu-bot-builder",
+    "id": "agent-skills-addy",
     "type": "skill",
-    "name": "Feishu Bot Builder",
-    "description": "飞书机器人快速构建 Skill，自然语言描述→代码生成→部署验证",
-    "author": {
-      "name": "卡尔AI工坊",
-      "github": "carl-ai-lab"
-    },
-    "repo": "carl-ai-lab/feishu-bot-builder",
-    "version": "1.0.0",
-    "category": "feishu",
+    "name": "Agent Skills (Addy Osmani)",
+    "description": "24 个生产级工程技能：/spec /plan /build /test /review /ship",
+    "repo": "addyosmani/agent-skills",
+    "category": "engineering",
     "tags": [
-      "飞书",
-      "机器人",
-      "Bot",
-      "部署"
+      "工程",
+      "全流程"
     ],
-    "stars": 23,
-    "created_at": "2026-02-25T10:27:17Z"
+    "stars": 77851
+  },
+  {
+    "id": "tdd",
+    "type": "skill",
+    "name": "TDD",
+    "description": "测试驱动开发，红绿重构循环",
+    "repo": "mattpocock/skills",
+    "category": "engineering",
+    "tags": [
+      "TDD",
+      "测试"
+    ],
+    "stars": 10000,
+    "installs": 432000
+  },
+  {
+    "id": "grill-me",
+    "type": "skill",
+    "name": "Grill Me",
+    "description": "压力测试方案或设计，一次一个决策",
+    "repo": "mattpocock/skills",
+    "category": "engineering",
+    "tags": [
+      "审查",
+      "压力测试"
+    ],
+    "stars": 10000,
+    "installs": 545000
+  },
+  {
+    "id": "code-review",
+    "type": "skill",
+    "name": "Code Review",
+    "description": "系统化代码审查工作流",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "engineering",
+    "tags": [
+      "审查",
+      "质量"
+    ],
+    "stars": 500,
+    "installs": 6800
+  },
+  {
+    "id": "architecture",
+    "type": "skill",
+    "name": "Architecture",
+    "description": "系统架构设计指导",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "engineering",
+    "tags": [
+      "架构",
+      "设计"
+    ],
+    "stars": 500,
+    "installs": 4400
+  },
+  {
+    "id": "testing-strategy",
+    "type": "skill",
+    "name": "Testing Strategy",
+    "description": "测试策略规划",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "engineering",
+    "tags": [
+      "测试",
+      "策略"
+    ],
+    "stars": 500,
+    "installs": 4300
+  },
+  {
+    "id": "prd-writer",
+    "type": "skill",
+    "name": "PRD Writer",
+    "description": "产品想法→PRD→Word文档→原型方案→任务拆分",
+    "repo": "guanghua1/prd-writer",
+    "category": "product",
+    "tags": [
+      "PRD",
+      "文档"
+    ],
+    "stars": 3
+  },
+  {
+    "id": "prd-to-prototype",
+    "type": "skill",
+    "name": "PRD to Prototype",
+    "description": "PRD→高保真HTML/Tailwind交互原型",
+    "repo": "zengxming45/prd-to-prototype",
+    "category": "product",
+    "tags": [
+      "原型",
+      "HTML"
+    ],
+    "stars": 5
+  },
+  {
+    "id": "product-expert",
+    "type": "skill",
+    "name": "Product Expert",
+    "description": "15年SaaS产品合伙人，苏格拉底式思维伙伴",
+    "repo": "felixgeelhaar/skills",
+    "category": "product",
+    "tags": [
+      "产品",
+      "战略"
+    ],
+    "stars": 5
+  },
+  {
+    "id": "product-brainstorming",
+    "type": "skill",
+    "name": "Product Brainstorming",
+    "description": "结构化产品头脑风暴",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "product",
+    "tags": [
+      "创意",
+      "头脑风暴"
+    ],
+    "stars": 500,
+    "installs": 3600
+  },
+  {
+    "id": "write-spec",
+    "type": "skill",
+    "name": "Write Spec",
+    "description": "编写产品规格文档",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "product",
+    "tags": [
+      "规格",
+      "文档"
+    ],
+    "stars": 500,
+    "installs": 2400
+  },
+  {
+    "id": "user-research",
+    "type": "skill",
+    "name": "User Research",
+    "description": "用户研究方法和分析",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "product",
+    "tags": [
+      "用户研究",
+      "VOC"
+    ],
+    "stars": 500,
+    "installs": 2600
+  },
+  {
+    "id": "mckinsey-research",
+    "type": "skill",
+    "name": "McKinsey Research",
+    "description": "12步战略分析：TAM/波特五力/财务模型/市场进入",
+    "repo": "Abdullah4AI/mckinsey-research",
+    "category": "strategy",
+    "tags": [
+      "战略",
+      "分析"
+    ],
+    "stars": 22
+  },
+  {
+    "id": "strategy-consultant",
+    "type": "skill",
+    "name": "Strategy Consultant",
+    "description": "MECE/IssueTree/假设检验/帕累托/SoWhat五框架",
+    "repo": "ConrayGambit/Strategy-Consultant-5-Consulting-Frameworks",
+    "category": "strategy",
+    "tags": [
+      "框架",
+      "咨询"
+    ],
+    "stars": 11
+  },
+  {
+    "id": "competitive-intelligence",
+    "type": "skill",
+    "name": "Competitive Intelligence",
+    "description": "竞品情报收集和分析",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "strategy",
+    "tags": [
+      "竞品",
+      "情报"
+    ],
+    "stars": 500,
+    "installs": 3300
+  },
+  {
+    "id": "competitive-brief",
+    "type": "skill",
+    "name": "Competitive Brief",
+    "description": "竞品分析简报",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "strategy",
+    "tags": [
+      "竞品",
+      "简报"
+    ],
+    "stars": 500,
+    "installs": 2100
+  },
+  {
+    "id": "comp-analysis",
+    "type": "skill",
+    "name": "Comp Analysis",
+    "description": "薪酬和竞品对比分析",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "strategy",
+    "tags": [
+      "对比",
+      "分析"
+    ],
+    "stars": 500,
+    "installs": 1900
+  },
+  {
+    "id": "financial-statements",
+    "type": "skill",
+    "name": "Financial Statements",
+    "description": "财务报表分析和解读",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "strategy",
+    "tags": [
+      "财务",
+      "报表"
+    ],
+    "stars": 500,
+    "installs": 3000
+  },
+  {
+    "id": "frontend-design",
+    "type": "skill",
+    "name": "Frontend Design",
+    "description": "高质量前端设计生成",
+    "repo": "anthropics/skills",
+    "category": "creative",
+    "tags": [
+      "前端",
+      "设计"
+    ],
+    "stars": 8000,
+    "installs": 661000
+  },
+  {
+    "id": "web-design-guidelines",
+    "type": "skill",
+    "name": "Web Design Guidelines",
+    "description": "Web 设计最佳实践指南",
+    "repo": "vercel-labs/agent-skills",
+    "category": "creative",
+    "tags": [
+      "设计",
+      "Web"
+    ],
+    "stars": 5000,
+    "installs": 462000
+  },
+  {
+    "id": "build-dashboard",
+    "type": "skill",
+    "name": "Build Dashboard",
+    "description": "构建数据仪表盘",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "creative",
+    "tags": [
+      "仪表盘",
+      "数据"
+    ],
+    "stars": 500,
+    "installs": 5800
+  },
+  {
+    "id": "data-visualization",
+    "type": "skill",
+    "name": "Data Visualization",
+    "description": "数据可视化最佳实践",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "creative",
+    "tags": [
+      "可视化",
+      "图表"
+    ],
+    "stars": 500,
+    "installs": 9400
+  },
+  {
+    "id": "create-viz",
+    "type": "skill",
+    "name": "Create Viz",
+    "description": "快速创建数据可视化图表",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "creative",
+    "tags": [
+      "图表",
+      "快速"
+    ],
+    "stars": 500,
+    "installs": 3600
   },
   {
     "id": "launchfit-ai",
     "type": "skill",
     "name": "LaunchFit AI",
-    "description": "跨境产品上架准备度审查：市场准入/包装/认证/品牌授权/物流",
-    "author": {
-      "name": "jwynia",
-      "github": "jwynia"
-    },
+    "description": "跨境产品上架准备度审查",
     "repo": "jwynia/launchfit-ai",
-    "version": "1.0.0",
     "category": "ecommerce",
     "tags": [
       "跨境",
-      "合规",
-      "认证",
-      "上架"
+      "合规"
     ],
-    "stars": 5,
-    "created_at": "2026-01-01T00:00:00Z"
+    "stars": 5
   },
   {
-    "id": "open-design",
+    "id": "shopify-expert",
     "type": "skill",
-    "name": "Open Design",
-    "description": "开源 Claude Design 替代，原型/落地页/仪表盘/幻灯片/图片/视频生成",
-    "author": {
-      "name": "nexu-io",
-      "github": "nexu-io"
-    },
-    "repo": "nexu-io/open-design",
-    "version": "0.14.1",
-    "category": "creative",
+    "name": "Shopify Expert",
+    "description": "Shopify 电商平台专家技能",
+    "repo": "jeffallan/claude-skills",
+    "category": "ecommerce",
     "tags": [
-      "设计",
-      "原型",
-      "Figma替代",
-      "视频"
+      "Shopify",
+      "电商"
     ],
-    "stars": 77792,
-    "created_at": "2026-04-28T04:25:20Z"
+    "stars": 118,
+    "installs": 3800
+  },
+  {
+    "id": "seo-audit",
+    "type": "skill",
+    "name": "SEO Audit",
+    "description": "SEO 审计和优化建议",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "ecommerce",
+    "tags": [
+      "SEO",
+      "审计"
+    ],
+    "stars": 500,
+    "installs": 2400
+  },
+  {
+    "id": "content-creation",
+    "type": "skill",
+    "name": "Content Creation",
+    "description": "内容创作工作流",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "ecommerce",
+    "tags": [
+      "内容",
+      "创作"
+    ],
+    "stars": 500,
+    "installs": 3600
+  },
+  {
+    "id": "feishu-bot-builder",
+    "type": "skill",
+    "name": "Feishu Bot Builder",
+    "description": "飞书机器人快速构建 Skill",
+    "repo": "carl-ai-lab/feishu-bot-builder",
+    "category": "feishu",
+    "tags": [
+      "飞书",
+      "机器人"
+    ],
+    "stars": 23
+  },
+  {
+    "id": "lark-approval",
+    "type": "skill",
+    "name": "Lark Approval",
+    "description": "飞书审批流程管理",
+    "repo": "open.feishu.cn",
+    "category": "feishu",
+    "tags": [
+      "飞书",
+      "审批"
+    ],
+    "stars": 2000,
+    "installs": 401000
+  },
+  {
+    "id": "lark-okr",
+    "type": "skill",
+    "name": "Lark OKR",
+    "description": "飞书 OKR 目标管理",
+    "repo": "open.feishu.cn",
+    "category": "feishu",
+    "tags": [
+      "飞书",
+      "OKR"
+    ],
+    "stars": 2000,
+    "installs": 381000
+  },
+  {
+    "id": "lark-markdown",
+    "type": "skill",
+    "name": "Lark Markdown",
+    "description": "飞书 Markdown 文档处理",
+    "repo": "open.feishu.cn",
+    "category": "feishu",
+    "tags": [
+      "飞书",
+      "文档"
+    ],
+    "stars": 2000,
+    "installs": 366000
+  },
+  {
+    "id": "explore-data",
+    "type": "skill",
+    "name": "Explore Data",
+    "description": "数据探索和分析工作流",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "data",
+    "tags": [
+      "数据",
+      "探索"
+    ],
+    "stars": 500,
+    "installs": 4000
+  },
+  {
+    "id": "sql-queries",
+    "type": "skill",
+    "name": "SQL Queries",
+    "description": "SQL 查询编写和优化",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "data",
+    "tags": [
+      "SQL",
+      "查询"
+    ],
+    "stars": 500,
+    "installs": 3100
+  },
+  {
+    "id": "statistical-analysis",
+    "type": "skill",
+    "name": "Statistical Analysis",
+    "description": "统计分析方法指导",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "data",
+    "tags": [
+      "统计",
+      "分析"
+    ],
+    "stars": 500,
+    "installs": 3100
+  },
+  {
+    "id": "validate-data",
+    "type": "skill",
+    "name": "Validate Data",
+    "description": "数据验证和质量检查",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "data",
+    "tags": [
+      "验证",
+      "质量"
+    ],
+    "stars": 500,
+    "installs": 2300
+  },
+  {
+    "id": "caveman",
+    "type": "skill",
+    "name": "Caveman",
+    "description": "节省65%输出token，原始人说话模式",
+    "repo": "JuliusBrussee/caveman",
+    "category": "optimization",
+    "tags": [
+      "Token",
+      "省钱"
+    ],
+    "stars": 82445
+  },
+  {
+    "id": "task-management",
+    "type": "skill",
+    "name": "Task Management",
+    "description": "任务管理工作流",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "optimization",
+    "tags": [
+      "任务",
+      "管理"
+    ],
+    "stars": 500,
+    "installs": 5500
+  },
+  {
+    "id": "memory-management",
+    "type": "skill",
+    "name": "Memory Management",
+    "description": "Agent 记忆管理最佳实践",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "optimization",
+    "tags": [
+      "记忆",
+      "管理"
+    ],
+    "stars": 500,
+    "installs": 5400
+  },
+  {
+    "id": "prompt-engineer",
+    "type": "skill",
+    "name": "Prompt Engineer",
+    "description": "Prompt 工程优化技能",
+    "repo": "jeffallan/claude-skills",
+    "category": "optimization",
+    "tags": [
+      "Prompt",
+      "优化"
+    ],
+    "stars": 118,
+    "installs": 3800
+  },
+  {
+    "id": "process-optimization",
+    "type": "skill",
+    "name": "Process Optimization",
+    "description": "业务流程优化分析",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "optimization",
+    "tags": [
+      "流程",
+      "优化"
+    ],
+    "stars": 500,
+    "installs": 2100
+  },
+  {
+    "id": "documentation",
+    "type": "skill",
+    "name": "Documentation",
+    "description": "技术文档编写工作流",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "documentation",
+    "tags": [
+      "文档",
+      "编写"
+    ],
+    "stars": 500,
+    "installs": 6800
+  },
+  {
+    "id": "sprint-planning",
+    "type": "skill",
+    "name": "Sprint Planning",
+    "description": "Sprint 计划工作流",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "documentation",
+    "tags": [
+      "Sprint",
+      "计划"
+    ],
+    "stars": 500,
+    "installs": 2000
+  },
+  {
+    "id": "roadmap-update",
+    "type": "skill",
+    "name": "Roadmap Update",
+    "description": "产品路线图更新流程",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "documentation",
+    "tags": [
+      "路线图",
+      "更新"
+    ],
+    "stars": 500,
+    "installs": 2000
+  },
+  {
+    "id": "ai-product-strategy",
+    "type": "skill",
+    "name": "AI Product Strategy",
+    "description": "AI 产品策略：用例优先级/系统计划/安全/路线图",
+    "repo": "oldwinter/skills",
+    "category": "ai",
+    "tags": [
+      "AI",
+      "策略"
+    ],
+    "stars": 5
+  },
+  {
+    "id": "system-design",
+    "type": "skill",
+    "name": "System Design",
+    "description": "系统设计方法论",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "ai",
+    "tags": [
+      "系统",
+      "设计"
+    ],
+    "stars": 500,
+    "installs": 5400
+  },
+  {
+    "id": "debug",
+    "type": "skill",
+    "name": "Debug",
+    "description": "系统化调试工作流",
+    "repo": "anthropics/knowledge-work-plugins",
+    "category": "ai",
+    "tags": [
+      "调试",
+      "排错"
+    ],
+    "stars": 500,
+    "installs": 4000
   }
 ]
