@@ -1,0 +1,254 @@
+[
+  {
+    "id": "agent-skills",
+    "type": "skill",
+    "name": "Agent Skills (Addy Osmani)",
+    "description": "24 个生产级工程技能：spec/plan/build/test/review/ship 全流程",
+    "author": {
+      "name": "Addy Osmani",
+      "github": "addyosmani"
+    },
+    "repo": "addyosmani/agent-skills",
+    "version": "0.6.4",
+    "category": "engineering",
+    "tags": [
+      "工程",
+      "测试",
+      "代码审查",
+      "部署"
+    ],
+    "stars": 77851,
+    "created_at": "2026-02-15T20:20:26Z"
+  },
+  {
+    "id": "caveman",
+    "type": "skill",
+    "name": "Caveman",
+    "description": "让 AI Agent 像原始人一样说话，节省 65% 输出 token",
+    "author": {
+      "name": "Julius Brussee",
+      "github": "JuliusBrussee"
+    },
+    "repo": "JuliusBrussee/caveman",
+    "version": "1.9.1",
+    "category": "optimization",
+    "tags": [
+      "Token",
+      "优化",
+      "省钱",
+      "效率"
+    ],
+    "stars": 82445,
+    "created_at": "2026-04-04T10:03:00Z"
+  },
+  {
+    "id": "mckinsey-research",
+    "type": "skill",
+    "name": "McKinsey Research",
+    "description": "麦肯锡级 12 步战略分析：TAM/波特五力/财务模型/市场进入策略",
+    "author": {
+      "name": "Abdullah4AI",
+      "github": "Abdullah4AI"
+    },
+    "repo": "Abdullah4AI/mckinsey-research",
+    "version": "1.0.0",
+    "category": "strategy",
+    "tags": [
+      "战略",
+      "市场分析",
+      "咨询",
+      "TAM"
+    ],
+    "stars": 22,
+    "created_at": "2026-02-11T06:37:49Z"
+  },
+  {
+    "id": "strategy-consultant",
+    "type": "skill",
+    "name": "Strategy Consultant",
+    "description": "MECE/Issue Tree/假设检验/帕累托/So What 五框架，白人板级战略分析",
+    "author": {
+      "name": "ConrayGambit",
+      "github": "ConrayGambit"
+    },
+    "repo": "ConrayGambit/Strategy-Consultant-5-Consulting-Frameworks",
+    "version": "1.0.0",
+    "category": "strategy",
+    "tags": [
+      "战略",
+      "框架",
+      "MECE",
+      "咨询"
+    ],
+    "stars": 11,
+    "created_at": "2026-04-27T15:23:48Z"
+  },
+  {
+    "id": "prd-writer",
+    "type": "skill",
+    "name": "PRD Writer",
+    "description": "把产品想法转成可交付的 PRD、Word 文档、原型方案和研发任务拆分",
+    "author": {
+      "name": "guanghua1",
+      "github": "guanghua1"
+    },
+    "repo": "guanghua1/prd-writer",
+    "version": "1.0.0",
+    "category": "product",
+    "tags": [
+      "PRD",
+      "产品",
+      "需求",
+      "原型"
+    ],
+    "stars": 3,
+    "created_at": "2026-05-11T10:14:42Z"
+  },
+  {
+    "id": "prd-to-prototype",
+    "type": "skill",
+    "name": "PRD to Prototype",
+    "description": "从产品需求到高保真 HTML/Tailwind 交互原型的完整工作流",
+    "author": {
+      "name": "zengxming45",
+      "github": "zengxming45"
+    },
+    "repo": "zengxming45/prd-to-prototype",
+    "version": "1.0.0",
+    "category": "product",
+    "tags": [
+      "PRD",
+      "原型",
+      "HTML",
+      "Tailwind"
+    ],
+    "stars": 5,
+    "created_at": "2026-05-01T00:00:00Z"
+  },
+  {
+    "id": "product-expert",
+    "type": "skill",
+    "name": "Product Expert",
+    "description": "15 年经验的 Saas 产品合伙人，苏格拉底式思维伙伴，Marty Cagan + Teresa Torres 框架",
+    "author": {
+      "name": "Felix Geelhaar",
+      "github": "felixgeelhaar"
+    },
+    "repo": "felixgeelhaar/skills",
+    "version": "1.0.0",
+    "category": "product",
+    "tags": [
+      "产品",
+      "战略",
+      "PRD",
+      "OKR"
+    ],
+    "stars": 5,
+    "created_at": "2026-03-01T00:00:00Z"
+  },
+  {
+    "id": "proactive-agent",
+    "type": "skill",
+    "name": "Proactive Agent 3.1.0",
+    "description": "让 AI Agent 从被动等指令变为主动预判需求，WAL 协议+自愈+反向提示",
+    "author": {
+      "name": "Hal Labs",
+      "github": "blackmcvn"
+    },
+    "repo": "blackmcvn/proactive-agent-3-1-0",
+    "version": "3.1.0",
+    "category": "agent-engineering",
+    "tags": [
+      "主动",
+      "自愈",
+      "记忆",
+      "Agent工程"
+    ],
+    "stars": 113,
+    "created_at": "2026-03-01T00:00:00Z"
+  },
+  {
+    "id": "agent-team-builder",
+    "type": "skill",
+    "name": "Agent Team Builder",
+    "description": "多 Agent 团队搭建向导：角色设计→路由配置→协作规则→共享记忆",
+    "author": {
+      "name": "SuperJason",
+      "github": "superjavason"
+    },
+    "repo": "superjavason/agent-team-builder",
+    "version": "1.0.0",
+    "category": "agent-engineering",
+    "tags": [
+      "Agent团队",
+      "多Agent",
+      "协作",
+      "配置"
+    ],
+    "stars": 8,
+    "created_at": "2026-04-01T00:00:00Z"
+  },
+  {
+    "id": "feishu-bot-builder",
+    "type": "skill",
+    "name": "Feishu Bot Builder",
+    "description": "飞书机器人快速构建 Skill，自然语言描述→代码生成→部署验证",
+    "author": {
+      "name": "卡尔AI工坊",
+      "github": "carl-ai-lab"
+    },
+    "repo": "carl-ai-lab/feishu-bot-builder",
+    "version": "1.0.0",
+    "category": "feishu",
+    "tags": [
+      "飞书",
+      "机器人",
+      "Bot",
+      "部署"
+    ],
+    "stars": 23,
+    "created_at": "2026-02-25T10:27:17Z"
+  },
+  {
+    "id": "launchfit-ai",
+    "type": "skill",
+    "name": "LaunchFit AI",
+    "description": "跨境产品上架准备度审查：市场准入/包装/认证/品牌授权/物流",
+    "author": {
+      "name": "jwynia",
+      "github": "jwynia"
+    },
+    "repo": "jwynia/launchfit-ai",
+    "version": "1.0.0",
+    "category": "ecommerce",
+    "tags": [
+      "跨境",
+      "合规",
+      "认证",
+      "上架"
+    ],
+    "stars": 5,
+    "created_at": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "open-design",
+    "type": "skill",
+    "name": "Open Design",
+    "description": "开源 Claude Design 替代，原型/落地页/仪表盘/幻灯片/图片/视频生成",
+    "author": {
+      "name": "nexu-io",
+      "github": "nexu-io"
+    },
+    "repo": "nexu-io/open-design",
+    "version": "0.14.1",
+    "category": "creative",
+    "tags": [
+      "设计",
+      "原型",
+      "Figma替代",
+      "视频"
+    ],
+    "stars": 77792,
+    "created_at": "2026-04-28T04:25:20Z"
+  }
+]
