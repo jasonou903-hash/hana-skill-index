@@ -1,1 +1,834 @@
-[{"id":"find-skills","installs":2500000,"tags":["search","install"],"category":"agent-workflows","name":"Find Skills","repo":"vercel-labs/skills","stars":26000,"description":"Search and install skills from ecosystem (2.5M installs)"},{"id":"frontend-design","installs":661000,"tags":["frontend","design"],"category":"creative","name":"Frontend Design","repo":"anthropics/skills","stars":8000,"description":"High-quality frontend design generation (661K installs)"},{"id":"vercel-react-best-practices","installs":549000,"tags":["React","Vercel"],"category":"engineering","name":"Vercel React Best Practices","repo":"vercel-labs/agent-skills","stars":5000,"description":"Vercel React best practices (549K installs)"},{"id":"grill-me","installs":545000,"tags":["review","test"],"category":"engineering","name":"Grill Me","repo":"mattpocock/skills","stars":10000,"description":"Stress-test a plan or design (545K installs)"},{"id":"agent-browser","installs":541000,"tags":["browser","automation"],"category":"agent-workflows","name":"Agent Browser","repo":"vercel-labs/agent-browser","stars":5000,"description":"Full browser automation: navigate/click/fill/extract (541K)"},{"id":"web-design-guidelines","installs":462000,"tags":["design","web"],"category":"creative","name":"Web Design Guidelines","repo":"vercel-labs/agent-skills","stars":5000,"description":"Web design best practices (462K installs)"},{"id":"grill-with-docs","installs":459000,"tags":["review","docs"],"category":"engineering","name":"Grill With Docs","repo":"mattpocock/skills","stars":10000,"description":"Stress-test with documentation (459K installs)"},{"id":"improve-codebase-architecture","installs":450000,"tags":["architecture","refactor"],"category":"engineering","name":"Improve Codebase Architecture","repo":"mattpocock/skills","stars":10000,"description":"Improve codebase architecture (450K installs)"},{"id":"tdd","installs":432000,"tags":["TDD","testing"],"category":"engineering","name":"TDD","repo":"mattpocock/skills","stars":10000,"description":"Test-driven development red-green-refactor (432K installs)"},{"id":"remotion-best-practices","installs":424000,"tags":["video","Remotion"],"category":"creative","name":"Remotion Best Practices","repo":"remotion-dev/skills","stars":5000,"description":"Remotion video best practices (424K installs)"},{"id":"setup-matt-pocock-skills","installs":387000,"tags":["install","batch"],"category":"agent-workflows","name":"Setup Matt Pocock Skills","repo":"mattpocock/skills","stars":10000,"description":"One-click install all Matt Pocock skills (387K installs)"},{"id":"to-prd","installs":356000,"tags":["PRD","convert"],"category":"product","name":"To PRD","repo":"mattpocock/skills","stars":10000,"description":"Convert requirements to PRD documents (356K installs)"},{"id":"triage","installs":354000,"tags":["triage","priority"],"category":"engineering","name":"Triage","repo":"mattpocock/skills","stars":10000,"description":"Issue triage and prioritization (354K installs)"},{"id":"handoff","installs":344000,"tags":["handoff","collaboration"],"category":"agent-workflows","name":"Handoff","repo":"mattpocock/skills","stars":10000,"description":"Development handoff workflow (344K installs)"},{"id":"to-issues","installs":343000,"tags":["Issues","GitHub"],"category":"engineering","name":"To Issues","repo":"mattpocock/skills","stars":10000,"description":"Convert requirements to GitHub Issues (343K installs)"},{"id":"prototype","installs":334000,"tags":["prototype","rapid"],"category":"creative","name":"Prototype","repo":"mattpocock/skills","stars":10000,"description":"Rapid prototype development (334K installs)"},{"id":"diagnose","installs":232000,"tags":["diagnose","debug"],"category":"engineering","name":"Diagnose","repo":"mattpocock/skills","stars":10000,"description":"Problem diagnosis workflow (232K installs)"},{"id":"teach","installs":227000,"tags":["teach","explain"],"category":"documentation","name":"Teach","repo":"mattpocock/skills","stars":10000,"description":"Teaching and explanation mode (227K installs)"},{"id":"write-a-skill","installs":224000,"tags":["write","skill"],"category":"agent-workflows","name":"Write a Skill","repo":"mattpocock/skills","stars":10000,"description":"Write agent skill guide (224K installs)"},{"id":"zoom-out","installs":224000,"tags":["global","perspective"],"category":"strategy","name":"Zoom Out","repo":"mattpocock/skills","stars":10000,"description":"Zoom out for global perspective (224K installs)"},{"id":"domain-modeling","installs":157000,"tags":["modeling","domain"],"category":"strategy","name":"Domain Modeling","repo":"mattpocock/skills","stars":10000,"description":"Domain modeling workflow (157K installs)"},{"id":"codebase-design","installs":152000,"tags":["design","architecture"],"category":"engineering","name":"Codebase Design","repo":"mattpocock/skills","stars":10000,"description":"Codebase design (152K installs)"},{"id":"design-an-interface","installs":135000,"tags":["API","design"],"category":"engineering","name":"Design an Interface","repo":"mattpocock/skills","stars":10000,"description":"API interface design (135K installs)"},{"id":"qa","installs":127000,"tags":["QA","testing"],"category":"engineering","name":"QA","repo":"mattpocock/skills","stars":10000,"description":"Quality assurance workflow (127K installs)"},{"id":"review","installs":91000,"tags":["review","code"],"category":"engineering","name":"Review","repo":"mattpocock/skills","stars":10000,"description":"Code review (91K installs)"},{"id":"research","installs":74000,"tags":["research","survey"],"category":"strategy","name":"Research","repo":"mattpocock/skills","stars":10000,"description":"Research workflow (74K installs)"},{"id":"decision-mapping","installs":43000,"tags":["decision","mapping"],"category":"strategy","name":"Decision Mapping","repo":"mattpocock/skills","stars":10000,"description":"Decision mapping and visualization (43K installs)"},{"id":"lark-approval","installs":401000,"tags":["feishu","approval"],"category":"feishu","name":"Lark Approval","repo":"open.feishu.cn","stars":2000,"description":"Feishu approval workflow (401K installs)"},{"id":"lark-okr","installs":381000,"tags":["feishu","OKR"],"category":"feishu","name":"Lark OKR","repo":"open.feishu.cn","stars":2000,"description":"Feishu OKR management (381K installs)"},{"id":"lark-markdown","installs":366000,"tags":["feishu","document"],"category":"feishu","name":"Lark Markdown","repo":"open.feishu.cn","stars":2000,"description":"Feishu Markdown document processing (366K installs)"},{"id":"lark-calendar","installs":300000,"tags":["feishu","calendar"],"category":"feishu","name":"Lark Calendar","repo":"open.feishu.cn","stars":2000,"description":"Feishu calendar management (300K installs)"},{"id":"lark-doc","installs":280000,"tags":["feishu","document"],"category":"feishu","name":"Lark Doc","repo":"open.feishu.cn","stars":2000,"description":"Feishu document operations (280K installs)"},{"id":"lark-sheet","installs":260000,"tags":["feishu","spreadsheet"],"category":"feishu","name":"Lark Sheet","repo":"open.feishu.cn","stars":2000,"description":"Feishu spreadsheet operations (260K installs)"},{"id":"lark-base","installs":250000,"tags":["feishu","bitable"],"category":"feishu","name":"Lark Base","repo":"open.feishu.cn","stars":2000,"description":"Feishu Bitable operations (250K installs)"},{"id":"lark-message","installs":240000,"tags":["feishu","message"],"category":"feishu","name":"Lark Message","repo":"open.feishu.cn","stars":2000,"description":"Feishu message sending (240K installs)"},{"id":"lark-im","installs":220000,"tags":["feishu","IM"],"category":"feishu","name":"Lark IM","repo":"open.feishu.cn","stars":2000,"description":"Feishu IM integration (220K installs)"},{"id":"lark-task","installs":200000,"tags":["feishu","task"],"category":"feishu","name":"Lark Task","repo":"open.feishu.cn","stars":2000,"description":"Feishu task management (200K installs)"},{"id":"lark-wiki","installs":180000,"tags":["feishu","wiki"],"category":"feishu","name":"Lark Wiki","repo":"open.feishu.cn","stars":2000,"description":"Feishu wiki management (180K installs)"},{"id":"lark-meeting","installs":160000,"tags":["feishu","meeting"],"category":"feishu","name":"Lark Meeting","repo":"open.feishu.cn","stars":2000,"description":"Feishu meeting management (160K installs)"},{"id":"lark-bitable","installs":150000,"tags":["feishu","Bitable"],"category":"feishu","name":"Lark Bitable Advanced","repo":"open.feishu.cn","stars":2000,"description":"Feishu Bitable advanced operations (150K installs)"},{"id":"lark-apps","installs":100000,"tags":["feishu","miaoda","app"],"category":"feishu","name":"Lark Apps (Miaoda)","repo":"larksuite/cli","stars":14000,"description":"Feishu Miaoda app development and hosting (100K installs)"},{"id":"openai-pdf","installs":20000,"tags":["PDF","document"],"category":"documentation","name":"PDF Processing","repo":"openai/skills","stars":3000,"description":"PDF file processing (OpenAI)"},{"id":"openai-figma","installs":15000,"tags":["Figma","design"],"category":"creative","name":"Figma Design","repo":"openai/skills","stars":3000,"description":"Figma design file processing"},{"id":"microsoft-foundry","installs":452000,"tags":["Azure","AI"],"category":"ai","name":"Microsoft Foundry","repo":"microsoft/azure-skills","stars":2700,"description":"Azure AI Foundry (452K installs)"},{"id":"azure-ai","installs":448000,"tags":["Azure","AI"],"category":"ai","name":"Azure AI","repo":"microsoft/azure-skills","stars":2700,"description":"Azure AI services integration (448K installs)"},{"id":"vercel-deploy","installs":300000,"tags":["deploy","Vercel"],"category":"engineering","name":"Deploy to Vercel","repo":"vercel-labs/agent-skills","stars":5000,"description":"One-click deploy to Vercel (300K installs)"},{"id":"knowledge-synthesis","installs":4600,"tags":["knowledge","summary"],"category":"strategy","name":"Knowledge Synthesis","repo":"anthropics/knowledge-work-plugins","stars":22000,"description":"Knowledge synthesis and summarization (4.6K installs)"},{"id":"daily-briefing","installs":2300,"tags":["briefing","daily"],"category":"documentation","name":"Daily Briefing","repo":"anthropics/knowledge-work-plugins","stars":22000,"description":"Generate daily briefings (2.3K installs)"},{"id":"legal-risk-assessment","installs":3400,"tags":["legal","risk"],"category":"strategy","name":"Legal Risk Assessment","repo":"anthropics/knowledge-work-plugins","stars":22000,"description":"Legal risk analysis (3.4K installs)"},{"id":"brand-voice-enforcement","installs":2400,"tags":["brand","voice"],"category":"creative","name":"Brand Voice Enforcement","repo":"anthropics/knowledge-work-plugins","stars":22000,"description":"Brand tone consistency check (2.4K installs)"},{"id":"campaign-plan","installs":2100,"tags":["marketing","campaign"],"category":"ecommerce","name":"Campaign Plan","repo":"anthropics/knowledge-work-plugins","stars":22000,"description":"Marketing campaign planning (2.1K installs)"},{"id":"customer-research","installs":2100,"tags":["customer","research"],"category":"strategy","name":"Customer Research","repo":"anthropics/knowledge-work-plugins","stars":22000,"description":"Customer research (2.1K installs)"},{"id":"forecast","installs":2000,"tags":["forecast","business"],"category":"strategy","name":"Forecast","repo":"anthropics/knowledge-work-plugins","stars":22000,"description":"Business forecasting (2K installs)"},{"id":"email-sequence","installs":1900,"tags":["email","marketing"],"category":"ecommerce","name":"Email Sequence","repo":"anthropics/knowledge-work-plugins","stars":22000,"description":"Email sequence design (1.9K installs)"},{"id":"vendor-review","installs":1900,"tags":["vendor","evaluation"],"category":"strategy","name":"Vendor Review","repo":"anthropics/knowledge-work-plugins","stars":22000,"description":"Vendor evaluation (1.9K installs)"},{"id":"ai-product-strategy","name":"AI Product Strategy","tags":["AI","strategy"],"description":"Complete AI product strategy pack","repo":"oldwinter/skills","stars":5,"category":"ai"},{"id":"skill-creator","installs":200000,"tags":["create","publish"],"category":"agent-workflows","name":"Skill Creator","repo":"anthropics/skills","stars":8000,"description":"Create and publish new skills"},{"id":"agent-development","installs":50000,"tags":["dev","agent"],"category":"agent-workflows","name":"Agent Development","repo":"anthropics/claude-code","stars":8000,"description":"Agent development best practices"},{"id":"build-mcp-app","installs":20000,"tags":["MCP","app"],"category":"agent-workflows","name":"Build MCP App","repo":"anthropics/claude-plugins-official","stars":500,"description":"Build MCP applications"},{"id":"caveman","name":"Caveman","tags":["Token","save"],"description":"Save 65% output tokens - caveman speak (82K stars)","repo":"JuliusBrussee/caveman","stars":82445,"category":"optimization"},{"id":"agent-skills-addy","name":"Agent Skills (Addy Osmani)","tags":["engineering","fullstack"],"description":"24 production-grade engineering skills (77K stars)","repo":"addyosmani/agent-skills","stars":77851,"category":"engineering"},{"id":"open-design","name":"Open Design","tags":["design","prototype"],"description":"Open-source design tool: prototype/dashboard/slides (77K stars)","repo":"nexu-io/open-design","stars":77792,"category":"creative"},{"id":"prd-writer","name":"PRD Writer","tags":["PRD","document"],"description":"Product ideas to PRD, Word docs, prototypes, task breakdown","repo":"guanghua1/prd-writer","stars":3,"category":"product"},{"id":"prd-to-prototype","name":"PRD to Prototype","tags":["prototype","HTML"],"description":"PRD to high-fidelity HTML/Tailwind interactive prototype","repo":"zengxming45/prd-to-prototype","stars":5,"category":"product"},{"id":"product-expert","name":"Product Expert","tags":["product","strategy"],"description":"15yr SaaS product partner, Socratic thinking partner","repo":"felixgeelhaar/skills","stars":5,"category":"product"},{"id":"mckinsey-research","name":"McKinsey Research","tags":["strategy","analysis"],"description":"12-step strategy: TAM/Porter Five/Financial Model/Market Entry","repo":"Abdullah4AI/mckinsey-research","stars":22,"category":"strategy"},{"id":"strategy-consultant","name":"Strategy Consultant","tags":["framework","consulting"],"description":"MECE/IssueTree/Hypothesis/Pareto/SoWhat 5 frameworks","repo":"ConrayGambit/Strategy-Consultant-5-Consulting-Frameworks","stars":11,"category":"strategy"},{"id":"launchfit-ai","name":"LaunchFit AI","tags":["crossborder","compliance"],"description":"Cross-border product launch readiness review","repo":"jwynia/launchfit-ai","stars":5,"category":"ecommerce"},{"id":"feishu-bot-builder","name":"Feishu Bot Builder","tags":["feishu","bot"],"description":"Quick feishu bot builder skill","repo":"carl-ai-lab/feishu-bot-builder","stars":23,"category":"feishu"},{"id":"shopify-expert","installs":3800,"tags":["Shopify","ecommerce"],"category":"ecommerce","name":"Shopify Expert","repo":"jeffallan/claude-skills","stars":118,"description":"Shopify ecommerce expert (3.8K installs)"},{"id":"startup-pitch","name":"Startup Pitch","tags":["startup","pitch"],"description":"Startup pitch design","repo":"TheCraigHewitt/skills","stars":118,"category":"strategy"},{"id":"sales-outreach","name":"Sales Outreach","tags":["sales","outreach"],"description":"Sales outreach strategy","repo":"TheCraigHewitt/skills","stars":118,"category":"ecommerce"},{"id":"linkedin-content","name":"LinkedIn Content","tags":["LinkedIn","content"],"description":"LinkedIn content creation","repo":"TheCraigHewitt/skills","stars":118,"category":"ecommerce"},{"id":"youtube-strategy","name":"YouTube Strategy","tags":["YouTube","strategy"],"description":"YouTube content strategy","repo":"TheCraigHewitt/skills","stars":118,"category":"ecommerce"},{"id":"ceo-weekly-review","name":"CEO Weekly Review","tags":["CEO","review"],"description":"CEO weekly review","repo":"TheCraigHewitt/skills","stars":118,"category":"strategy"},{"id":"database-optimizer","installs":3900,"tags":["database","optimization"],"category":"engineering","name":"Database Optimizer","repo":"jeffallan/claude-skills","stars":118,"description":"Database optimization (3.9K installs)"},{"id":"api-designer","installs":4300,"tags":["API","design"],"category":"engineering","name":"API Designer","repo":"jeffallan/claude-skills","stars":118,"description":"API design (4.3K installs)"},{"id":"security-reviewer","installs":4000,"tags":["security","review"],"category":"engineering","name":"Security Reviewer","repo":"jeffallan/claude-skills","stars":118,"description":"Security review (4K installs)"},{"id":"pandas-pro","installs":4000,"tags":["Pandas","Python"],"category":"data","name":"Pandas Pro","repo":"jeffallan/claude-skills","stars":118,"description":"Pandas data analysis expert (4K installs)"},{"id":"obsidian-vault","installs":125000,"tags":["Obsidian","knowledge"],"category":"documentation","name":"Obsidian Vault","repo":"mattpocock/skills","stars":10000,"description":"Obsidian knowledge base management (125K installs)"},{"id":"git-guardrails","installs":125000,"tags":["Git","safety"],"category":"engineering","name":"Git Guardrails","repo":"mattpocock/skills","stars":10000,"description":"Git safety guardrails (125K installs)"}]
+[
+  {
+    "id": "find-skills",
+    "installs": 2500000,
+    "tags": [
+      "search",
+      "install"
+    ],
+    "category": "agent-workflows",
+    "name": "Find Skills",
+    "repo": "vercel-labs/skills",
+    "stars": 26000,
+    "description": "Search and install skills from ecosystem (2.5M installs)"
+  },
+  {
+    "id": "frontend-design",
+    "installs": 661000,
+    "tags": [
+      "frontend",
+      "design"
+    ],
+    "category": "creative",
+    "name": "Frontend Design",
+    "repo": "anthropics/skills",
+    "stars": 8000,
+    "description": "High-quality frontend design generation (661K installs)"
+  },
+  {
+    "id": "vercel-react-best-practices",
+    "installs": 549000,
+    "tags": [
+      "React",
+      "Vercel"
+    ],
+    "category": "engineering",
+    "name": "Vercel React Best Practices",
+    "repo": "vercel-labs/agent-skills",
+    "stars": 5000,
+    "description": "Vercel React best practices (549K installs)"
+  },
+  {
+    "id": "grill-me",
+    "installs": 545000,
+    "tags": [
+      "review",
+      "test"
+    ],
+    "category": "engineering",
+    "name": "Grill Me",
+    "repo": "mattpocock/skills",
+    "stars": 10000,
+    "description": "Stress-test a plan or design (545K installs)"
+  },
+  {
+    "id": "agent-browser",
+    "installs": 541000,
+    "tags": [
+      "browser",
+      "automation"
+    ],
+    "category": "agent-workflows",
+    "name": "Agent Browser",
+    "repo": "vercel-labs/agent-browser",
+    "stars": 5000,
+    "description": "Full browser automation: navigate/click/fill/extract (541K)"
+  },
+  {
+    "id": "web-design-guidelines",
+    "installs": 462000,
+    "tags": [
+      "design",
+      "web"
+    ],
+    "category": "creative",
+    "name": "Web Design Guidelines",
+    "repo": "vercel-labs/agent-skills",
+    "stars": 5000,
+    "description": "Web design best practices (462K installs)"
+  },
+  {
+    "id": "grill-with-docs",
+    "installs": 459000,
+    "tags": [
+      "review",
+      "docs"
+    ],
+    "category": "engineering",
+    "name": "Grill With Docs",
+    "repo": "mattpocock/skills",
+    "stars": 10000,
+    "description": "Stress-test with documentation (459K installs)"
+  },
+  {
+    "id": "improve-codebase-architecture",
+    "installs": 450000,
+    "tags": [
+      "architecture",
+      "refactor"
+    ],
+    "category": "engineering",
+    "name": "Improve Codebase Architecture",
+    "repo": "mattpocock/skills",
+    "stars": 10000,
+    "description": "Improve codebase architecture (450K installs)"
+  },
+  {
+    "id": "tdd",
+    "installs": 432000,
+    "tags": [
+      "TDD",
+      "testing"
+    ],
+    "category": "engineering",
+    "name": "TDD",
+    "repo": "mattpocock/skills",
+    "stars": 10000,
+    "description": "Test-driven development red-green-refactor (432K installs)"
+  },
+  {
+    "id": "remotion-best-practices",
+    "installs": 424000,
+    "tags": [
+      "video",
+      "Remotion"
+    ],
+    "category": "creative",
+    "name": "Remotion Best Practices",
+    "repo": "remotion-dev/skills",
+    "stars": 5000,
+    "description": "Remotion video best practices (424K installs)"
+  },
+  {
+    "id": "setup-matt-pocock-skills",
+    "installs": 387000,
+    "tags": [
+      "install",
+      "batch"
+    ],
+    "category": "agent-workflows",
+    "name": "Setup Matt Pocock Skills",
+    "repo": "mattpocock/skills",
+    "stars": 10000,
+    "description": "One-click install all Matt Pocock skills (387K installs)"
+  },
+  {
+    "id": "to-prd",
+    "installs": 356000,
+    "tags": [
+      "PRD",
+      "convert"
+    ],
+    "category": "product",
+    "name": "To PRD",
+    "repo": "mattpocock/skills",
+    "stars": 10000,
+    "description": "Convert requirements to PRD documents (356K installs)"
+  },
+  {
+    "id": "triage",
+    "installs": 354000,
+    "tags": [
+      "triage",
+      "priority"
+    ],
+    "category": "engineering",
+    "name": "Triage",
+    "repo": "mattpocock/skills",
+    "stars": 10000,
+    "description": "Issue triage and prioritization (354K installs)"
+  },
+  {
+    "id": "handoff",
+    "installs": 344000,
+    "tags": [
+      "handoff",
+      "collaboration"
+    ],
+    "category": "agent-workflows",
+    "name": "Handoff",
+    "repo": "mattpocock/skills",
+    "stars": 10000,
+    "description": "Development handoff workflow (344K installs)"
+  },
+  {
+    "id": "to-issues",
+    "installs": 343000,
+    "tags": [
+      "Issues",
+      "GitHub"
+    ],
+    "category": "engineering",
+    "name": "To Issues",
+    "repo": "mattpocock/skills",
+    "stars": 10000,
+    "description": "Convert requirements to GitHub Issues (343K installs)"
+  },
+  {
+    "id": "prototype",
+    "installs": 334000,
+    "tags": [
+      "prototype",
+      "rapid"
+    ],
+    "category": "creative",
+    "name": "Prototype",
+    "repo": "mattpocock/skills",
+    "stars": 10000,
+    "description": "Rapid prototype development (334K installs)"
+  },
+  {
+    "id": "diagnose",
+    "installs": 232000,
+    "tags": [
+      "diagnose",
+      "debug"
+    ],
+    "category": "engineering",
+    "name": "Diagnose",
+    "repo": "mattpocock/skills",
+    "stars": 10000,
+    "description": "Problem diagnosis workflow (232K installs)"
+  },
+  {
+    "id": "teach",
+    "installs": 227000,
+    "tags": [
+      "teach",
+      "explain"
+    ],
+    "category": "documentation",
+    "name": "Teach",
+    "repo": "mattpocock/skills",
+    "stars": 10000,
+    "description": "Teaching and explanation mode (227K installs)"
+  },
+  {
+    "id": "write-a-skill",
+    "installs": 224000,
+    "tags": [
+      "write",
+      "skill"
+    ],
+    "category": "agent-workflows",
+    "name": "Write a Skill",
+    "repo": "mattpocock/skills",
+    "stars": 10000,
+    "description": "Write agent skill guide (224K installs)"
+  },
+  {
+    "id": "zoom-out",
+    "installs": 224000,
+    "tags": [
+      "global",
+      "perspective"
+    ],
+    "category": "strategy",
+    "name": "Zoom Out",
+    "repo": "mattpocock/skills",
+    "stars": 10000,
+    "description": "Zoom out for global perspective (224K installs)"
+  },
+  {
+    "id": "domain-modeling",
+    "installs": 157000,
+    "tags": [
+      "modeling",
+      "domain"
+    ],
+    "category": "strategy",
+    "name": "Domain Modeling",
+    "repo": "mattpocock/skills",
+    "stars": 10000,
+    "description": "Domain modeling workflow (157K installs)"
+  },
+  {
+    "id": "codebase-design",
+    "installs": 152000,
+    "tags": [
+      "design",
+      "architecture"
+    ],
+    "category": "engineering",
+    "name": "Codebase Design",
+    "repo": "mattpocock/skills",
+    "stars": 10000,
+    "description": "Codebase design (152K installs)"
+  },
+  {
+    "id": "design-an-interface",
+    "installs": 135000,
+    "tags": [
+      "API",
+      "design"
+    ],
+    "category": "engineering",
+    "name": "Design an Interface",
+    "repo": "mattpocock/skills",
+    "stars": 10000,
+    "description": "API interface design (135K installs)"
+  },
+  {
+    "id": "review",
+    "installs": 91000,
+    "tags": [
+      "review",
+      "code"
+    ],
+    "category": "engineering",
+    "name": "Review",
+    "repo": "mattpocock/skills",
+    "stars": 10000,
+    "description": "Code review (91K installs)"
+  },
+  {
+    "id": "research",
+    "installs": 74000,
+    "tags": [
+      "research",
+      "survey"
+    ],
+    "category": "strategy",
+    "name": "Research",
+    "repo": "mattpocock/skills",
+    "stars": 10000,
+    "description": "Research workflow (74K installs)"
+  },
+  {
+    "id": "decision-mapping",
+    "installs": 43000,
+    "tags": [
+      "decision",
+      "mapping"
+    ],
+    "category": "strategy",
+    "name": "Decision Mapping",
+    "repo": "mattpocock/skills",
+    "stars": 10000,
+    "description": "Decision mapping and visualization (43K installs)"
+  },
+  {
+    "id": "lark-apps",
+    "installs": 100000,
+    "tags": [
+      "feishu",
+      "miaoda",
+      "app"
+    ],
+    "category": "feishu",
+    "name": "Lark Apps (Miaoda)",
+    "repo": "larksuite/cli",
+    "stars": 14000,
+    "description": "Feishu Miaoda app development and hosting (100K installs)"
+  },
+  {
+    "id": "openai-pdf",
+    "installs": 20000,
+    "tags": [
+      "PDF",
+      "document"
+    ],
+    "category": "documentation",
+    "name": "PDF Processing",
+    "repo": "openai/skills",
+    "stars": 3000,
+    "description": "PDF file processing (OpenAI)"
+  },
+  {
+    "id": "openai-figma",
+    "installs": 15000,
+    "tags": [
+      "Figma",
+      "design"
+    ],
+    "category": "creative",
+    "name": "Figma Design",
+    "repo": "openai/skills",
+    "stars": 3000,
+    "description": "Figma design file processing"
+  },
+  {
+    "id": "microsoft-foundry",
+    "installs": 452000,
+    "tags": [
+      "Azure",
+      "AI"
+    ],
+    "category": "ai",
+    "name": "Microsoft Foundry",
+    "repo": "microsoft/azure-skills",
+    "stars": 2700,
+    "description": "Azure AI Foundry (452K installs)"
+  },
+  {
+    "id": "azure-ai",
+    "installs": 448000,
+    "tags": [
+      "Azure",
+      "AI"
+    ],
+    "category": "ai",
+    "name": "Azure AI",
+    "repo": "microsoft/azure-skills",
+    "stars": 2700,
+    "description": "Azure AI services integration (448K installs)"
+  },
+  {
+    "id": "vercel-deploy",
+    "installs": 300000,
+    "tags": [
+      "deploy",
+      "Vercel"
+    ],
+    "category": "engineering",
+    "name": "Deploy to Vercel",
+    "repo": "vercel-labs/agent-skills",
+    "stars": 5000,
+    "description": "One-click deploy to Vercel (300K installs)"
+  },
+  {
+    "id": "knowledge-synthesis",
+    "installs": 4600,
+    "tags": [
+      "knowledge",
+      "summary"
+    ],
+    "category": "strategy",
+    "name": "Knowledge Synthesis",
+    "repo": "anthropics/knowledge-work-plugins",
+    "stars": 22000,
+    "description": "Knowledge synthesis and summarization (4.6K installs)"
+  },
+  {
+    "id": "daily-briefing",
+    "installs": 2300,
+    "tags": [
+      "briefing",
+      "daily"
+    ],
+    "category": "documentation",
+    "name": "Daily Briefing",
+    "repo": "anthropics/knowledge-work-plugins",
+    "stars": 22000,
+    "description": "Generate daily briefings (2.3K installs)"
+  },
+  {
+    "id": "legal-risk-assessment",
+    "installs": 3400,
+    "tags": [
+      "legal",
+      "risk"
+    ],
+    "category": "strategy",
+    "name": "Legal Risk Assessment",
+    "repo": "anthropics/knowledge-work-plugins",
+    "stars": 22000,
+    "description": "Legal risk analysis (3.4K installs)"
+  },
+  {
+    "id": "brand-voice-enforcement",
+    "installs": 2400,
+    "tags": [
+      "brand",
+      "voice"
+    ],
+    "category": "creative",
+    "name": "Brand Voice Enforcement",
+    "repo": "anthropics/knowledge-work-plugins",
+    "stars": 22000,
+    "description": "Brand tone consistency check (2.4K installs)"
+  },
+  {
+    "id": "campaign-plan",
+    "installs": 2100,
+    "tags": [
+      "marketing",
+      "campaign"
+    ],
+    "category": "ecommerce",
+    "name": "Campaign Plan",
+    "repo": "anthropics/knowledge-work-plugins",
+    "stars": 22000,
+    "description": "Marketing campaign planning (2.1K installs)"
+  },
+  {
+    "id": "customer-research",
+    "installs": 2100,
+    "tags": [
+      "customer",
+      "research"
+    ],
+    "category": "strategy",
+    "name": "Customer Research",
+    "repo": "anthropics/knowledge-work-plugins",
+    "stars": 22000,
+    "description": "Customer research (2.1K installs)"
+  },
+  {
+    "id": "forecast",
+    "installs": 2000,
+    "tags": [
+      "forecast",
+      "business"
+    ],
+    "category": "strategy",
+    "name": "Forecast",
+    "repo": "anthropics/knowledge-work-plugins",
+    "stars": 22000,
+    "description": "Business forecasting (2K installs)"
+  },
+  {
+    "id": "email-sequence",
+    "installs": 1900,
+    "tags": [
+      "email",
+      "marketing"
+    ],
+    "category": "ecommerce",
+    "name": "Email Sequence",
+    "repo": "anthropics/knowledge-work-plugins",
+    "stars": 22000,
+    "description": "Email sequence design (1.9K installs)"
+  },
+  {
+    "id": "vendor-review",
+    "installs": 1900,
+    "tags": [
+      "vendor",
+      "evaluation"
+    ],
+    "category": "strategy",
+    "name": "Vendor Review",
+    "repo": "anthropics/knowledge-work-plugins",
+    "stars": 22000,
+    "description": "Vendor evaluation (1.9K installs)"
+  },
+  {
+    "id": "ai-product-strategy",
+    "name": "AI Product Strategy",
+    "tags": [
+      "AI",
+      "strategy"
+    ],
+    "description": "Complete AI product strategy pack",
+    "repo": "oldwinter/skills",
+    "stars": 5,
+    "category": "ai"
+  },
+  {
+    "id": "skill-creator",
+    "installs": 200000,
+    "tags": [
+      "create",
+      "publish"
+    ],
+    "category": "agent-workflows",
+    "name": "Skill Creator",
+    "repo": "anthropics/skills",
+    "stars": 8000,
+    "description": "Create and publish new skills"
+  },
+  {
+    "id": "agent-development",
+    "installs": 50000,
+    "tags": [
+      "dev",
+      "agent"
+    ],
+    "category": "agent-workflows",
+    "name": "Agent Development",
+    "repo": "anthropics/claude-code",
+    "stars": 8000,
+    "description": "Agent development best practices"
+  },
+  {
+    "id": "build-mcp-app",
+    "installs": 20000,
+    "tags": [
+      "MCP",
+      "app"
+    ],
+    "category": "agent-workflows",
+    "name": "Build MCP App",
+    "repo": "anthropics/claude-plugins-official",
+    "stars": 500,
+    "description": "Build MCP applications"
+  },
+  {
+    "id": "caveman",
+    "name": "Caveman",
+    "tags": [
+      "Token",
+      "save"
+    ],
+    "description": "Save 65% output tokens - caveman speak (82K stars)",
+    "repo": "JuliusBrussee/caveman",
+    "stars": 82445,
+    "category": "optimization"
+  },
+  {
+    "id": "agent-skills-addy",
+    "name": "Agent Skills (Addy Osmani)",
+    "tags": [
+      "engineering",
+      "fullstack"
+    ],
+    "description": "24 production-grade engineering skills (77K stars)",
+    "repo": "addyosmani/agent-skills",
+    "stars": 77851,
+    "category": "engineering"
+  },
+  {
+    "id": "open-design",
+    "name": "Open Design",
+    "tags": [
+      "design",
+      "prototype"
+    ],
+    "description": "Open-source design tool: prototype/dashboard/slides (77K stars)",
+    "repo": "nexu-io/open-design",
+    "stars": 77792,
+    "category": "creative"
+  },
+  {
+    "id": "prd-writer",
+    "name": "PRD Writer",
+    "tags": [
+      "PRD",
+      "document"
+    ],
+    "description": "Product ideas to PRD, Word docs, prototypes, task breakdown",
+    "repo": "guanghua1/prd-writer",
+    "stars": 3,
+    "category": "product"
+  },
+  {
+    "id": "product-expert",
+    "name": "Product Expert",
+    "tags": [
+      "product",
+      "strategy"
+    ],
+    "description": "15yr SaaS product partner, Socratic thinking partner",
+    "repo": "felixgeelhaar/skills",
+    "stars": 5,
+    "category": "product"
+  },
+  {
+    "id": "mckinsey-research",
+    "name": "McKinsey Research",
+    "tags": [
+      "strategy",
+      "analysis"
+    ],
+    "description": "12-step strategy: TAM/Porter Five/Financial Model/Market Entry",
+    "repo": "Abdullah4AI/mckinsey-research",
+    "stars": 22,
+    "category": "strategy"
+  },
+  {
+    "id": "strategy-consultant",
+    "name": "Strategy Consultant",
+    "tags": [
+      "framework",
+      "consulting"
+    ],
+    "description": "MECE/IssueTree/Hypothesis/Pareto/SoWhat 5 frameworks",
+    "repo": "ConrayGambit/Strategy-Consultant-5-Consulting-Frameworks",
+    "stars": 11,
+    "category": "strategy"
+  },
+  {
+    "id": "feishu-bot-builder",
+    "name": "Feishu Bot Builder",
+    "tags": [
+      "feishu",
+      "bot"
+    ],
+    "description": "Quick feishu bot builder skill",
+    "repo": "carl-ai-lab/feishu-bot-builder",
+    "stars": 23,
+    "category": "feishu"
+  },
+  {
+    "id": "shopify-expert",
+    "installs": 3800,
+    "tags": [
+      "Shopify",
+      "ecommerce"
+    ],
+    "category": "ecommerce",
+    "name": "Shopify Expert",
+    "repo": "jeffallan/claude-skills",
+    "stars": 118,
+    "description": "Shopify ecommerce expert (3.8K installs)"
+  },
+  {
+    "id": "startup-pitch",
+    "name": "Startup Pitch",
+    "tags": [
+      "startup",
+      "pitch"
+    ],
+    "description": "Startup pitch design",
+    "repo": "TheCraigHewitt/skills",
+    "stars": 118,
+    "category": "strategy"
+  },
+  {
+    "id": "sales-outreach",
+    "name": "Sales Outreach",
+    "tags": [
+      "sales",
+      "outreach"
+    ],
+    "description": "Sales outreach strategy",
+    "repo": "TheCraigHewitt/skills",
+    "stars": 118,
+    "category": "ecommerce"
+  },
+  {
+    "id": "linkedin-content",
+    "name": "LinkedIn Content",
+    "tags": [
+      "LinkedIn",
+      "content"
+    ],
+    "description": "LinkedIn content creation",
+    "repo": "TheCraigHewitt/skills",
+    "stars": 118,
+    "category": "ecommerce"
+  },
+  {
+    "id": "youtube-strategy",
+    "name": "YouTube Strategy",
+    "tags": [
+      "YouTube",
+      "strategy"
+    ],
+    "description": "YouTube content strategy",
+    "repo": "TheCraigHewitt/skills",
+    "stars": 118,
+    "category": "ecommerce"
+  },
+  {
+    "id": "ceo-weekly-review",
+    "name": "CEO Weekly Review",
+    "tags": [
+      "CEO",
+      "review"
+    ],
+    "description": "CEO weekly review",
+    "repo": "TheCraigHewitt/skills",
+    "stars": 118,
+    "category": "strategy"
+  },
+  {
+    "id": "database-optimizer",
+    "installs": 3900,
+    "tags": [
+      "database",
+      "optimization"
+    ],
+    "category": "engineering",
+    "name": "Database Optimizer",
+    "repo": "jeffallan/claude-skills",
+    "stars": 118,
+    "description": "Database optimization (3.9K installs)"
+  },
+  {
+    "id": "api-designer",
+    "installs": 4300,
+    "tags": [
+      "API",
+      "design"
+    ],
+    "category": "engineering",
+    "name": "API Designer",
+    "repo": "jeffallan/claude-skills",
+    "stars": 118,
+    "description": "API design (4.3K installs)"
+  },
+  {
+    "id": "security-reviewer",
+    "installs": 4000,
+    "tags": [
+      "security",
+      "review"
+    ],
+    "category": "engineering",
+    "name": "Security Reviewer",
+    "repo": "jeffallan/claude-skills",
+    "stars": 118,
+    "description": "Security review (4K installs)"
+  },
+  {
+    "id": "pandas-pro",
+    "installs": 4000,
+    "tags": [
+      "Pandas",
+      "Python"
+    ],
+    "category": "data",
+    "name": "Pandas Pro",
+    "repo": "jeffallan/claude-skills",
+    "stars": 118,
+    "description": "Pandas data analysis expert (4K installs)"
+  },
+  {
+    "id": "obsidian-vault",
+    "installs": 125000,
+    "tags": [
+      "Obsidian",
+      "knowledge"
+    ],
+    "category": "documentation",
+    "name": "Obsidian Vault",
+    "repo": "mattpocock/skills",
+    "stars": 10000,
+    "description": "Obsidian knowledge base management (125K installs)"
+  },
+  {
+    "id": "git-guardrails",
+    "installs": 125000,
+    "tags": [
+      "Git",
+      "safety"
+    ],
+    "category": "engineering",
+    "name": "Git Guardrails",
+    "repo": "mattpocock/skills",
+    "stars": 10000,
+    "description": "Git safety guardrails (125K installs)"
+  }
+]
