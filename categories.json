@@ -1,0 +1,47 @@
+[
+  {
+    "id": "engineering",
+    "name": "工程开发",
+    "icon": "🔧"
+  },
+  {
+    "id": "product",
+    "name": "产品管理",
+    "icon": "📋"
+  },
+  {
+    "id": "strategy",
+    "name": "战略分析",
+    "icon": "🎯"
+  },
+  {
+    "id": "agent-engineering",
+    "name": "Agent 工程",
+    "icon": "🤖"
+  },
+  {
+    "id": "ecommerce",
+    "name": "跨境电商",
+    "icon": "🛒"
+  },
+  {
+    "id": "feishu",
+    "name": "飞书",
+    "icon": "🕊️"
+  },
+  {
+    "id": "creative",
+    "name": "创意设计",
+    "icon": "🎨"
+  },
+  {
+    "id": "optimization",
+    "name": "效率优化",
+    "icon": "⚡"
+  },
+  {
+    "id": "tools",
+    "name": "工具",
+    "icon": "🛠️"
+  }
+]
